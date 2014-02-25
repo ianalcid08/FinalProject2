@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{31bfac00-6284-453b-b2bc-d24867077818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{6b756854-256e-4ba2-8804-d66b209298c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{862f4979-7ab8-4913-835d-de59f210f0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{d5244be9-d39c-40a5-808b-9d2adcdf8b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStates">
+      <UniqueIdentifier>{ef292d1b-36df-47e8-b58e-9e50f9e3c9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{9ec60c9f-08b9-4bab-882e-8559c51747fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects">
+      <UniqueIdentifier>{e657b6d5-da4a-4c22-bb29-76197388f29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{f4f64b67-2652-4d42-b11e-e12cd4abaa4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Bullets">
+      <UniqueIdentifier>{480b7bdb-46bb-45ad-8bd6-ded7d46b762d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Enemies">
+      <UniqueIdentifier>{61d1db45-a273-40e1-b196-9f802e8b1ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Environment">
+      <UniqueIdentifier>{3d1a6411-bbeb-4cf0-8b53-a840f6924974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Bullets">
+      <UniqueIdentifier>{f2c1832c-bd31-4cfe-a6ac-747d57e2ce14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Enemies">
+      <UniqueIdentifier>{1e57e6ad-0072-4284-84f4-18be9d655a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Environment">
+      <UniqueIdentifier>{35eb388f-fa4e-4761-bf59-7f067b9f9b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{b2af3a29-8799-4003-a0cc-7166184a9601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{b2b8d37f-993b-446c-84c2-426b87b01b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio">
+      <UniqueIdentifier>{f9a35e7b-546f-4810-9bb6-4b0e61f43798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{d8045d70-283e-48a7-a5bf-ac65dda99a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers\Collision">
+      <UniqueIdentifier>{52d0d464-de16-447c-9f57-234e0d141084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers\Collision">
+      <UniqueIdentifier>{152567ef-5b32-43b4-8274-e3353359c73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Animations">
+      <UniqueIdentifier>{1c9f13fa-e59c-4e7e-82e1-853c8406d1ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer\Animations">
+      <UniqueIdentifier>{d36da60f-b2d3-42d4-a8c9-1902eccc93f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{e5183530-d9c6-4321-955f-10a4c5d71494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{f027df2b-1867-4c27-acfa-af8559ecf93f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Critical Mass.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Critical Mass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLBatch.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLSetup.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLBatchBase.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLTriangleBatch.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\glsMath.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\DebugConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLShaderManager.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header files\gl\glew.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GL\glxew.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GL\wglew.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLFrame.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ScriptManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ObjectManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ObjectFactory.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AssetManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CollisionLib.h">
+      <Filter>Header Files\Managers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AcidPool.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Crate.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AnimationProcessor.h">
+      <Filter>Header Files\Renderer\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CreditsMenu.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\DifficultyMenu.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GamePlayState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\IntroState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\IState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\MainMenuState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\OptionsMenu.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LivingEntity.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\MovingEntity.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BaseEntity.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\IEntity.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\SmallEnemy.h">
+      <Filter>Header Files\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\MediumEnemy.h">
+      <Filter>Header Files\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LargeEnemy.h">
+      <Filter>Header Files\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Player.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Depot.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LaserTrap.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\RedBarrel.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\WindowsForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Mesh.h">
+      <Filter>Header Files\Renderer\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CollisionEntity.h">
+      <Filter>Header Files\Managers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\RenderNode.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\XBOXController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\VFXManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLFrustum.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLGeometryTransform.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLMatrixStack.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\HealthPickup.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\SoundManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AnimDebugState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LoseState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\WinState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\StateManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Sound\Source\AudioSystemWwise.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Sound\Source\Entity3D.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Sound\Source\Wwise_IDs.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Laser.h">
+      <Filter>Header Files\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Projectile.h">
+      <Filter>Header Files\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Shotgun.h">
+      <Filter>Header Files\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Weapons.h">
+      <Filter>Header Files\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\UIElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Pull.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Push.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Shield.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Explosion.h">
+      <Filter>Header Files\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\WaveManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AnimationManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\PauseState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\SkyBox.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CollisionManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Emitter.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Particle.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Light.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLAnimatedBatch.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BehaviorTree.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Behaviors.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Conditions.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AIManager.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Enemy.h">
+      <Filter>Header Files\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GeometryEffect.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GeometryEmitter.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BehaviorNode.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Selector.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Sequence.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\IntroSplashState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\MessageSystem.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\EMP.h">
+      <Filter>Header Files\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LightPole.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\RedStrike.h">
+      <Filter>Header Files\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Mortar.h">
+      <Filter>Header Files\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LandingPads.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BlueStrike.h">
+      <Filter>Header Files\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\TutorialMenu.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\TutorialState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\TutorialPause.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\SpaceObjects.h">
+      <Filter>Header Files\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BossEnemy.h">
+      <Filter>Header Files\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LaserBall.h">
+      <Filter>Header Files\GameObjects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\HelpState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CinematicSystem.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\QuitGameState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\Critical Mass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GLTriangleBatch.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GLSetup.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GLBatch.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\glsMath.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\DebugConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GLShaderManager.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CollisionLib.cpp">
+      <Filter>Source Files\Managers\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ScriptManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ObjectManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ObjectFactory.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\AssetManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\AnimationProcessor.cpp">
+      <Filter>Source Files\Renderer\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\OptionsMenu.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\MainMenuState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\IState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\IntroState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GamePlayState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\DifficultyMenu.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\AcidPool.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Depot.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LaserTrap.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LargeEnemy.cpp">
+      <Filter>Source Files\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\MediumEnemy.cpp">
+      <Filter>Source Files\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\RedBarrel.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Crate.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Player.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\MovingEntity.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LivingEntity.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\BaseEntity.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\WindowsForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Mesh.cpp">
+      <Filter>Source Files\Renderer\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CollisionEntity.cpp">
+      <Filter>Source Files\Managers\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\RenderNode.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\XBOXController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\VFXManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="source files\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\SmallEnemy.cpp">
+      <Filter>Source Files\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\HealthPickup.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\SoundManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\HUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\AnimDebugState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\OBB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LoseState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\WinState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\StateManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Sound\Source\Entity3D.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Sound\Source\AudioSystemWwise.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Projectile.cpp">
+      <Filter>Source Files\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Weapons.cpp">
+      <Filter>Source Files\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Laser.cpp">
+      <Filter>Source Files\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Shotgun.cpp">
+      <Filter>Source Files\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\UIElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Pull.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Push.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Shield.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Explosion.cpp">
+      <Filter>Source Files\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\WaveManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\AnimationManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\PauseState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\SkyBox.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CollisionManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Emitter.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Particle.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Light.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GLAnimatedBatch.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Behaviors.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\BehaviorTree.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Conditions.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\AIManager.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Enemy.cpp">
+      <Filter>Source Files\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CreditsMenu.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GeometryEmitter.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GeometryEffect.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\IntroSplashState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\MessageSystem.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\EMP.cpp">
+      <Filter>Source Files\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LightPole.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\RedStrike.cpp">
+      <Filter>Source Files\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Mortar.cpp">
+      <Filter>Source Files\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="source files\LandingPads.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\BlueStrike.cpp">
+      <Filter>Source Files\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\TutorialMenu.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\TutorialState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\TutorialPause.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\SpaceObjects.cpp">
+      <Filter>Source Files\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\BossEnemy.cpp">
+      <Filter>Source Files\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LaserBall.cpp">
+      <Filter>Source Files\GameObjects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\HelpState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CinematicSystem.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\QuitGameState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Critical Mass.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

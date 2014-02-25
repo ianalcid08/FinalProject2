@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model>
+<Mesh name="polySurfaceShape1">
+<TrackBack>|polySurface1|polySurfaceShape1</TrackBack>
+<VertCount>105</VertCount>
+<PolyCount>80</PolyCount>
+<Texture/>
+<vertList>
+<Vert id="0">
+<x>1.999027</x><y>-0.079956</y><z>-0.649523</z><Nx>0.951057</Nx><Ny>0.000000</Ny><Nz>-0.309016</Nz><Tu>0.375000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="1">
+<x>1.700474</x><y>-0.079956</y><z>-1.235467</z><Nx>0.809017</Nx><Ny>0.000000</Ny><Nz>-0.587785</Nz><Tu>0.387500</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="2">
+<x>1.700474</x><y>10.473902</y><z>-1.235467</z><Nx>0.809017</Nx><Ny>0.000000</Ny><Nz>-0.587785</Nz><Tu>0.387500</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="3">
+<x>1.235467</x><y>-0.079956</y><z>-1.700474</z><Nx>0.587785</Nx><Ny>0.000000</Ny><Nz>-0.809017</Nz><Tu>0.400000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="4">
+<x>1.235467</x><y>10.473902</y><z>-1.700474</z><Nx>0.587785</Nx><Ny>0.000000</Ny><Nz>-0.809017</Nz><Tu>0.400000</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="5">
+<x>0.649523</x><y>-0.079956</y><z>-1.999027</z><Nx>0.309017</Nx><Ny>0.000000</Ny><Nz>-0.951057</Nz><Tu>0.412500</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="6">
+<x>0.649523</x><y>10.473902</y><z>-1.999027</z><Nx>0.309017</Nx><Ny>0.000000</Ny><Nz>-0.951057</Nz><Tu>0.412500</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="7">
+<x>0.000000</x><y>-0.079956</y><z>-2.101901</z><Nx>0.000000</Nx><Ny>0.000000</Ny><Nz>-1.000000</Nz><Tu>0.425000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="8">
+<x>0.000000</x><y>10.473902</y><z>-2.101901</z><Nx>0.000000</Nx><Ny>0.000000</Ny><Nz>-1.000000</Nz><Tu>0.425000</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="9">
+<x>-0.649523</x><y>-0.079956</y><z>-1.999027</z><Nx>-0.309017</Nx><Ny>0.000000</Ny><Nz>-0.951057</Nz><Tu>0.437500</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="10">
+<x>-0.649523</x><y>10.473902</y><z>-1.999027</z><Nx>-0.309017</Nx><Ny>0.000000</Ny><Nz>-0.951057</Nz><Tu>0.437500</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="11">
+<x>-1.235466</x><y>-0.079956</y><z>-1.700474</z><Nx>-0.587785</Nx><Ny>0.000000</Ny><Nz>-0.809017</Nz><Tu>0.450000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="12">
+<x>-1.235466</x><y>10.473902</y><z>-1.700474</z><Nx>-0.587785</Nx><Ny>0.000000</Ny><Nz>-0.809017</Nz><Tu>0.450000</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="13">
+<x>-1.700474</x><y>-0.079956</y><z>-1.235466</z><Nx>-0.809017</Nx><Ny>0.000000</Ny><Nz>-0.587785</Nz><Tu>0.462500</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="14">
+<x>-1.700474</x><y>10.473902</y><z>-1.235466</z><Nx>-0.809017</Nx><Ny>0.000000</Ny><Nz>-0.587785</Nz><Tu>0.462500</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="15">
+<x>-1.999027</x><y>-0.079956</y><z>-0.649523</z><Nx>-0.951057</Nx><Ny>0.000000</Ny><Nz>-0.309017</Nz><Tu>0.475000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="16">
+<x>-1.999027</x><y>10.473902</y><z>-0.649523</z><Nx>-0.951057</Nx><Ny>0.000000</Ny><Nz>-0.309017</Nz><Tu>0.475000</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="17">
+<x>-2.101901</x><y>-0.079956</y><z>0.000000</z><Nx>-1.000000</Nx><Ny>0.000000</Ny><Nz>0.000000</Nz><Tu>0.487500</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="18">
+<x>-2.101901</x><y>10.473902</y><z>0.000000</z><Nx>-1.000000</Nx><Ny>0.000000</Ny><Nz>0.000000</Nz><Tu>0.487500</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="19">
+<x>-1.999027</x><y>-0.079956</y><z>0.649523</z><Nx>-0.951057</Nx><Ny>0.000000</Ny><Nz>0.309017</Nz><Tu>0.500000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="20">
+<x>-1.999027</x><y>10.473902</y><z>0.649523</z><Nx>-0.951057</Nx><Ny>0.000000</Ny><Nz>0.309017</Nz><Tu>0.500000</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="21">
+<x>-1.700474</x><y>-0.079956</y><z>1.235466</z><Nx>-0.809017</Nx><Ny>0.000000</Ny><Nz>0.587785</Nz><Tu>0.512500</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="22">
+<x>-1.700474</x><y>10.473902</y><z>1.235466</z><Nx>-0.809017</Nx><Ny>0.000000</Ny><Nz>0.587785</Nz><Tu>0.512500</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="23">
+<x>-1.235466</x><y>-0.079956</y><z>1.700473</z><Nx>-0.587785</Nx><Ny>0.000000</Ny><Nz>0.809017</Nz><Tu>0.525000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="24">
+<x>-1.235466</x><y>10.473902</y><z>1.700473</z><Nx>-0.587785</Nx><Ny>0.000000</Ny><Nz>0.809017</Nz><Tu>0.525000</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="25">
+<x>-0.649523</x><y>-0.079956</y><z>1.999026</z><Nx>-0.309017</Nx><Ny>0.000000</Ny><Nz>0.951057</Nz><Tu>0.537500</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="26">
+<x>-0.649523</x><y>10.473902</y><z>1.999026</z><Nx>-0.309017</Nx><Ny>0.000000</Ny><Nz>0.951057</Nz><Tu>0.537500</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="27">
+<x>-0.000000</x><y>-0.079956</y><z>2.101901</z><Nx>0.000000</Nx><Ny>0.000000</Ny><Nz>1.000000</Nz><Tu>0.550000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="28">
+<x>-0.000000</x><y>10.473902</y><z>2.101901</z><Nx>0.000000</Nx><Ny>0.000000</Ny><Nz>1.000000</Nz><Tu>0.550000</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="29">
+<x>0.649523</x><y>-0.079956</y><z>1.999026</z><Nx>0.309017</Nx><Ny>0.000000</Ny><Nz>0.951056</Nz><Tu>0.562500</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="30">
+<x>0.649523</x><y>10.473902</y><z>1.999026</z><Nx>0.309017</Nx><Ny>0.000000</Ny><Nz>0.951056</Nz><Tu>0.562500</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="31">
+<x>1.235466</x><y>-0.079956</y><z>1.700473</z><Nx>0.587785</Nx><Ny>0.000000</Ny><Nz>0.809017</Nz><Tu>0.575000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="32">
+<x>1.235466</x><y>10.473902</y><z>1.700473</z><Nx>0.587785</Nx><Ny>0.000000</Ny><Nz>0.809017</Nz><Tu>0.575000</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="33">
+<x>1.700473</x><y>-0.079956</y><z>1.235466</z><Nx>0.809017</Nx><Ny>0.000000</Ny><Nz>0.587785</Nz><Tu>0.587500</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="34">
+<x>1.700473</x><y>10.473902</y><z>1.235466</z><Nx>0.809017</Nx><Ny>0.000000</Ny><Nz>0.587785</Nz><Tu>0.587500</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="35">
+<x>1.999026</x><y>-0.079956</y><z>0.649523</z><Nx>0.951057</Nx><Ny>0.000000</Ny><Nz>0.309017</Nz><Tu>0.600000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="36">
+<x>1.999026</x><y>10.473902</y><z>0.649523</z><Nx>0.951057</Nx><Ny>0.000000</Ny><Nz>0.309017</Nz><Tu>0.600000</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="37">
+<x>2.101900</x><y>-0.079956</y><z>0.000000</z><Nx>1.000000</Nx><Ny>0.000000</Ny><Nz>0.000001</Nz><Tu>0.612500</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="38">
+<x>2.101900</x><y>10.473902</y><z>0.000000</z><Nx>1.000000</Nx><Ny>0.000000</Ny><Nz>0.000001</Nz><Tu>0.612500</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="39">
+<x>1.999027</x><y>-0.079956</y><z>-0.649523</z><Nx>0.951057</Nx><Ny>0.000000</Ny><Nz>-0.309016</Nz><Tu>0.625000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="40">
+<x>1.999027</x><y>10.473902</y><z>-0.649523</z><Nx>0.951057</Nx><Ny>0.000000</Ny><Nz>-0.309016</Nz><Tu>0.625000</Tu><Tv>0.688440</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="41">
+<x>1.700474</x><y>-0.079956</y><z>-1.235467</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.626409</Tu><Tv>0.064408</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="42">
+<x>1.999027</x><y>-0.079956</y><z>-0.649523</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>-0.000000</Nz><Tu>0.648603</Tu><Tv>0.107966</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="43">
+<x>0.000000</x><y>-0.079956</y><z>0.000000</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>-0.000000</Nz><Tu>0.500000</Tu><Tv>0.150000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="44">
+<x>1.235467</x><y>-0.079956</y><z>-1.700474</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.591842</Tu><Tv>0.029841</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="45">
+<x>0.649523</x><y>-0.079956</y><z>-1.999027</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.548284</Tu><Tv>0.007647</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="46">
+<x>0.000000</x><y>-0.079956</y><z>-2.101901</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.500000</Tu><Tv>-0.000000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="47">
+<x>-0.649523</x><y>-0.079956</y><z>-1.999027</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.451716</Tu><Tv>0.007647</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="48">
+<x>-1.235466</x><y>-0.079956</y><z>-1.700474</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.408159</Tu><Tv>0.029841</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="49">
+<x>-1.700474</x><y>-0.079956</y><z>-1.235466</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>-0.000000</Nz><Tu>0.373591</Tu><Tv>0.064409</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="50">
+<x>-1.999027</x><y>-0.079956</y><z>-0.649523</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>-0.000000</Nz><Tu>0.351397</Tu><Tv>0.107966</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="51">
+<x>-2.101901</x><y>-0.079956</y><z>0.000000</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.343750</Tu><Tv>0.156250</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="52">
+<x>-1.999027</x><y>-0.079956</y><z>0.649523</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.351397</Tu><Tv>0.204534</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="53">
+<x>-1.700474</x><y>-0.079956</y><z>1.235466</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.373591</Tu><Tv>0.248091</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="54">
+<x>-1.235466</x><y>-0.079956</y><z>1.700473</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.408159</Tu><Tv>0.282659</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="55">
+<x>-0.649523</x><y>-0.079956</y><z>1.999026</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.451716</Tu><Tv>0.304853</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="56">
+<x>-0.000000</x><y>-0.079956</y><z>2.101901</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.500000</Tu><Tv>0.312500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="57">
+<x>0.649523</x><y>-0.079956</y><z>1.999026</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.548284</Tu><Tv>0.304853</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="58">
+<x>1.235466</x><y>-0.079956</y><z>1.700473</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.591841</Tu><Tv>0.282659</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="59">
+<x>1.700473</x><y>-0.079956</y><z>1.235466</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.626409</Tu><Tv>0.248091</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="60">
+<x>1.999026</x><y>-0.079956</y><z>0.649523</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>0.000000</Nz><Tu>0.648603</Tu><Tv>0.204534</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="61">
+<x>2.101900</x><y>-0.079956</y><z>0.000000</z><Nx>0.000000</Nx><Ny>-1.000000</Ny><Nz>-0.000000</Nz><Tu>0.656250</Tu><Tv>0.156250</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="62">
+<x>1.999027</x><y>10.473902</y><z>-0.649523</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.648603</Tu><Tv>0.892034</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="63">
+<x>1.700474</x><y>10.473902</y><z>-1.235467</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.626409</Tu><Tv>0.935591</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="64">
+<x>0.000000</x><y>10.473902</y><z>0.000000</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.500000</Tu><Tv>0.837500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="65">
+<x>1.235467</x><y>10.473902</y><z>-1.700474</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.591841</Tu><Tv>0.970159</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="66">
+<x>0.649523</x><y>10.473902</y><z>-1.999027</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.548284</Tu><Tv>0.992353</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="67">
+<x>0.000000</x><y>10.473902</y><z>-2.101901</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.500000</Tu><Tv>1.000000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="68">
+<x>-0.649523</x><y>10.473902</y><z>-1.999027</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.451716</Tu><Tv>0.992353</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="69">
+<x>-1.235466</x><y>10.473902</y><z>-1.700474</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>-0.000000</Nz><Tu>0.408159</Tu><Tv>0.970159</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="70">
+<x>-1.700474</x><y>10.473902</y><z>-1.235466</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000001</Nz><Tu>0.373591</Tu><Tv>0.935591</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="71">
+<x>-1.999027</x><y>10.473902</y><z>-0.649523</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000001</Nz><Tu>0.351397</Tu><Tv>0.892034</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="72">
+<x>-2.101901</x><y>10.473902</y><z>0.000000</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.343750</Tu><Tv>0.843750</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="73">
+<x>-1.999027</x><y>10.473902</y><z>0.649523</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.351397</Tu><Tv>0.795466</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="74">
+<x>-1.700474</x><y>10.473902</y><z>1.235466</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.373591</Tu><Tv>0.751909</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="75">
+<x>-1.235466</x><y>10.473902</y><z>1.700473</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.408159</Tu><Tv>0.717341</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="76">
+<x>-0.649523</x><y>10.473902</y><z>1.999026</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.451716</Tu><Tv>0.695147</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="77">
+<x>-0.000000</x><y>10.473902</y><z>2.101901</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.500000</Tu><Tv>0.687500</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="78">
+<x>0.649523</x><y>10.473902</y><z>1.999026</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>-0.000000</Nz><Tu>0.548284</Tu><Tv>0.695147</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="79">
+<x>1.235466</x><y>10.473902</y><z>1.700473</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>-0.000000</Nz><Tu>0.591842</Tu><Tv>0.717341</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="80">
+<x>1.700473</x><y>10.473902</y><z>1.235466</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000001</Nz><Tu>0.626409</Tu><Tv>0.751908</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="81">
+<x>1.999026</x><y>10.473902</y><z>0.649523</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000001</Nz><Tu>0.648603</Tu><Tv>0.795466</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="82">
+<x>2.101900</x><y>10.473902</y><z>0.000000</z><Nx>0.000000</Nx><Ny>1.000000</Ny><Nz>0.000000</Nz><Tu>0.656250</Tu><Tv>0.843750</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="83">
+<x>1.964895</x><y>5.821756</y><z>-1.940072</z><Nx>0.735052</Nx><Ny>-0.263236</Ny><Nz>-0.624825</Nz><Tu>0.250000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="84">
+<x>1.677911</x><y>5.258941</y><z>-1.918252</z><Nx>0.625272</Nx><Ny>-0.478529</Ny><Nz>-0.616478</Nz><Tu>0.275000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="85">
+<x>0.043330</x><y>6.350306</y><z>-4.423300</z><Nx>-0.000000</Nx><Ny>-0.038740</Ny><Nz>-0.999249</Nz><Tu>0.500000</Tu><Tv>1.000000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="86">
+<x>1.230923</x><y>4.812288</y><z>-1.900935</z><Nx>0.454287</Nx><Ny>-0.649386</Ny><Nz>-0.609854</Nz><Tu>0.300000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="87">
+<x>0.667685</x><y>4.525519</y><z>-1.889817</z><Nx>0.238833</Nx><Ny>-0.759082</Ny><Nz>-0.605601</Nz><Tu>0.325000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="88">
+<x>0.043330</x><y>4.426706</y><z>-1.885986</z><Nx>-0.000000</Nx><Ny>-0.796882</Ny><Nz>-0.604136</Nz><Tu>0.350000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="89">
+<x>-0.581024</x><y>4.525520</y><z>-1.889817</z><Nx>-0.238833</Nx><Ny>-0.759083</Ny><Nz>-0.605600</Nz><Tu>0.375000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="90">
+<x>-1.144262</x><y>4.812288</y><z>-1.900935</z><Nx>-0.454287</Nx><Ny>-0.649386</Ny><Nz>-0.609853</Nz><Tu>0.400000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="91">
+<x>-1.591250</x><y>5.258941</y><z>-1.918252</z><Nx>-0.625272</Nx><Ny>-0.478529</Ny><Nz>-0.616478</Nz><Tu>0.425000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="92">
+<x>-1.878234</x><y>5.821756</y><z>-1.940072</z><Nx>-0.735052</Nx><Ny>-0.263236</Ny><Nz>-0.624825</Nz><Tu>0.450000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="93">
+<x>-1.977122</x><y>6.445642</y><z>-1.964260</z><Nx>-0.772879</Nx><Ny>-0.024583</Ny><Nz>-0.634077</Nz><Tu>0.475000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="94">
+<x>-1.878234</x><y>7.069527</y><z>-1.988447</z><Nx>-0.735052</Nx><Ny>0.214070</Ny><Nz>-0.643329</Nz><Tu>0.500000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="95">
+<x>-1.591250</x><y>7.632342</y><z>-2.010267</z><Nx>-0.625272</Nx><Ny>0.429363</Ny><Nz>-0.651676</Nz><Tu>0.525000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="96">
+<x>-1.144261</x><y>8.078995</y><z>-2.027584</z><Nx>-0.454286</Nx><Ny>0.600220</Ny><Nz>-0.658301</Nz><Tu>0.550000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="97">
+<x>-0.581024</x><y>8.365763</y><z>-2.038702</z><Nx>-0.238832</Nx><Ny>0.709917</Ny><Nz>-0.662554</Nz><Tu>0.575000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="98">
+<x>0.043330</x><y>8.464577</y><z>-2.042533</z><Nx>0.000000</Nx><Ny>0.747716</Ny><Nz>-0.664019</Nz><Tu>0.600000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="99">
+<x>0.667684</x><y>8.365763</y><z>-2.038702</z><Nx>0.238833</Nx><Ny>0.709917</Ny><Nz>-0.662553</Nz><Tu>0.625000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="100">
+<x>1.230922</x><y>8.078995</y><z>-2.027584</z><Nx>0.454287</Nx><Ny>0.600220</Ny><Nz>-0.658300</Nz><Tu>0.650000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="101">
+<x>1.677910</x><y>7.632342</y><z>-2.010267</z><Nx>0.625273</Nx><Ny>0.429363</Ny><Nz>-0.651676</Nz><Tu>0.675000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="102">
+<x>1.964894</x><y>7.069527</y><z>-1.988447</z><Nx>0.735052</Nx><Ny>0.214070</Ny><Nz>-0.643330</Nz><Tu>0.700000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="103">
+<x>2.063782</x><y>6.445642</y><z>-1.964260</z><Nx>0.772879</Nx><Ny>-0.024582</Ny><Nz>-0.634077</Nz><Tu>0.725000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+<Vert id="104">
+<x>1.964895</x><y>5.821756</y><z>-1.940072</z><Nx>0.735052</Nx><Ny>-0.263236</Ny><Nz>-0.624825</Nz><Tu>0.750000</Tu><Tv>0.500000</Tv>
+<influences>
+</influences>
+</Vert>
+</vertList>
+<polyList>
+<Polygon>
+<i1>0</i1><i2>1</i2><i3>2</i3>
+</Polygon>
+<Polygon>
+<i1>1</i1><i2>3</i2><i3>4</i3>
+</Polygon>
+<Polygon>
+<i1>3</i1><i2>5</i2><i3>6</i3>
+</Polygon>
+<Polygon>
+<i1>5</i1><i2>7</i2><i3>8</i3>
+</Polygon>
+<Polygon>
+<i1>7</i1><i2>9</i2><i3>10</i3>
+</Polygon>
+<Polygon>
+<i1>9</i1><i2>11</i2><i3>12</i3>
+</Polygon>
+<Polygon>
+<i1>11</i1><i2>13</i2><i3>14</i3>
+</Polygon>
+<Polygon>
+<i1>13</i1><i2>15</i2><i3>16</i3>
+</Polygon>
+<Polygon>
+<i1>15</i1><i2>17</i2><i3>18</i3>
+</Polygon>
+<Polygon>
+<i1>17</i1><i2>19</i2><i3>20</i3>
+</Polygon>
+<Polygon>
+<i1>19</i1><i2>21</i2><i3>22</i3>
+</Polygon>
+<Polygon>
+<i1>21</i1><i2>23</i2><i3>24</i3>
+</Polygon>
+<Polygon>
+<i1>23</i1><i2>25</i2><i3>26</i3>
+</Polygon>
+<Polygon>
+<i1>25</i1><i2>27</i2><i3>28</i3>
+</Polygon>
+<Polygon>
+<i1>27</i1><i2>29</i2><i3>30</i3>
+</Polygon>
+<Polygon>
+<i1>29</i1><i2>31</i2><i3>32</i3>
+</Polygon>
+<Polygon>
+<i1>31</i1><i2>33</i2><i3>34</i3>
+</Polygon>
+<Polygon>
+<i1>33</i1><i2>35</i2><i3>36</i3>
+</Polygon>
+<Polygon>
+<i1>35</i1><i2>37</i2><i3>38</i3>
+</Polygon>
+<Polygon>
+<i1>37</i1><i2>39</i2><i3>40</i3>
+</Polygon>
+<Polygon>
+<i1>41</i1><i2>42</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>44</i1><i2>41</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>45</i1><i2>44</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>46</i1><i2>45</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>47</i1><i2>46</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>48</i1><i2>47</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>49</i1><i2>48</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>50</i1><i2>49</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>51</i1><i2>50</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>52</i1><i2>51</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>53</i1><i2>52</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>54</i1><i2>53</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>55</i1><i2>54</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>56</i1><i2>55</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>57</i1><i2>56</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>58</i1><i2>57</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>59</i1><i2>58</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>60</i1><i2>59</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>61</i1><i2>60</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>42</i1><i2>61</i2><i3>43</i3>
+</Polygon>
+<Polygon>
+<i1>62</i1><i2>63</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>63</i1><i2>65</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>65</i1><i2>66</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>66</i1><i2>67</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>67</i1><i2>68</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>68</i1><i2>69</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>69</i1><i2>70</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>70</i1><i2>71</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>71</i1><i2>72</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>72</i1><i2>73</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>73</i1><i2>74</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>74</i1><i2>75</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>75</i1><i2>76</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>76</i1><i2>77</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>77</i1><i2>78</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>78</i1><i2>79</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>79</i1><i2>80</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>80</i1><i2>81</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>81</i1><i2>82</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>82</i1><i2>62</i2><i3>64</i3>
+</Polygon>
+<Polygon>
+<i1>83</i1><i2>84</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>84</i1><i2>86</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>86</i1><i2>87</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>87</i1><i2>88</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>88</i1><i2>89</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>89</i1><i2>90</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>90</i1><i2>91</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>91</i1><i2>92</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>92</i1><i2>93</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>93</i1><i2>94</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>94</i1><i2>95</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>95</i1><i2>96</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>96</i1><i2>97</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>97</i1><i2>98</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>98</i1><i2>99</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>99</i1><i2>100</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>100</i1><i2>101</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>101</i1><i2>102</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>102</i1><i2>103</i2><i3>85</i3>
+</Polygon>
+<Polygon>
+<i1>103</i1><i2>104</i2><i3>85</i3>
+</Polygon>
+</polyList>
+</Mesh>
+<Skeleton numBones="0">
+</Skeleton>
+</Model>

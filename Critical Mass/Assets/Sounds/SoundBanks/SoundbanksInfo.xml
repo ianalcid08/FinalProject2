@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" SchemaVersion="9">
+	<RootPaths>
+		<ProjectRoot>D:\PerforceDepot2\Studios\1308 - Brain Fizzle\Gnome Toss\WwiseProject\Critical Mass\</ProjectRoot>
+		<SourceFilesRoot>D:\PerforceDepot2\Studios\1308 - Brain Fizzle\Gnome Toss\WwiseProject\Critical Mass\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\PerforceDepot2\Studios\1308 - Brain Fizzle\Gnome Toss\WwiseProject\Critical Mass\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\PerforceDepot2\Studios\1308 - Brain Fizzle\Gnome Toss\WwiseProject\Critical Mass\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents />
+	<StreamedFiles />
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedEvents />
+			<IncludedDialogueEvents />
+			<ReferencedStreamedFiles />
+			<IncludedFullFiles />
+			<IncludedPrefetchFiles />
+			<ExternalSources />
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3864097025" Name="Pause_All" />
+				<Event Id="2579029665" Name="Play_DX_ANNOUNCER_FINAL_WAVE" />
+				<Event Id="2707501668" Name="Play_DX_ANNOUNCER_WAVE_01" />
+				<Event Id="2707501671" Name="Play_DX_ANNOUNCER_WAVE_02" />
+				<Event Id="2707501670" Name="Play_DX_ANNOUNCER_WAVE_03" />
+				<Event Id="2707501665" Name="Play_DX_ANNOUNCER_WAVE_04" />
+				<Event Id="2707501664" Name="Play_DX_ANNOUNCER_WAVE_05" />
+				<Event Id="2707501667" Name="Play_DX_ANNOUNCER_WAVE_06" />
+				<Event Id="2707501666" Name="Play_DX_ANNOUNCER_WAVE_07" />
+				<Event Id="840298284" Name="Play_DX_ANNOUNCER_WAVE_COMPLETE" />
+				<Event Id="2579370533" Name="Play_DX_BOSS_DEATH" />
+				<Event Id="4080913371" Name="Play_DX_BOSS_EXTERMINATE" />
+				<Event Id="1249646153" Name="Play_DX_BOSS_KILL" />
+				<Event Id="2867684278" Name="Play_DX_BOSS_PLANETS" />
+				<Event Id="2893764718" Name="Play_DX_BOSS_RESISTANCE" />
+				<Event Id="3629906730" Name="Play_DX_BOSS_STATE_01" />
+				<Event Id="3629906729" Name="Play_DX_BOSS_STATE_02" />
+				<Event Id="3629906728" Name="Play_DX_BOSS_STATE_03" />
+				<Event Id="2588882948" Name="Play_DX_PLAYER_EXCLAMATION" />
+				<Event Id="2305978933" Name="Play_DX_RADIO_DEPOT" />
+				<Event Id="1382426147" Name="Play_DX_RADIO_HEALTH" />
+				<Event Id="1519185805" Name="Play_DX_RADIO_INCOMING" />
+				<Event Id="2413053853" Name="Play_MX_TRACK_01" />
+				<Event Id="2413053854" Name="Play_MX_TRACK_02" />
+				<Event Id="2413053855" Name="Play_MX_TRACK_03" />
+				<Event Id="2413053848" Name="Play_MX_TRACK_04" />
+				<Event Id="1331127606" Name="Play_SFX_BOMB_FALL" />
+				<Event Id="2471654895" Name="Play_SFX_BOSS_DAMAGE" />
+				<Event Id="1215837881" Name="Play_SFX_BOSS_ENERGY_FADE" />
+				<Event Id="969558064" Name="Play_SFX_BOSS_ENERGY_SPHERE" />
+				<Event Id="3946551460" Name="Play_SFX_CRATE_DESTROY" />
+				<Event Id="2649338458" Name="Play_SFX_DEPOT_ACTIVATE_ALARM" />
+				<Event Id="1979492489" Name="Play_SFX_ENEMY_EXPLOSIONS" />
+				<Event Id="340565366" Name="Play_SFX_ENEMY_STUNNED" />
+				<Event Id="287364864" Name="Play_SFX_ENEMY_VACUUM" />
+				<Event Id="2871587185" Name="Play_SFX_ENERGY_DEATH" />
+				<Event Id="1875765353" Name="Play_SFX_EXPLOSION_DAMAGE" />
+				<Event Id="2943253342" Name="Play_SFX_EXPLOSION_INTENSITY1" />
+				<Event Id="2943253341" Name="Play_SFX_EXPLOSION_INTENSITY2" />
+				<Event Id="2943253340" Name="Play_SFX_EXPLOSION_INTENSITY3" />
+				<Event Id="646272929" Name="Play_SFX_GUN_LEVEL_UP" />
+				<Event Id="511285784" Name="Play_SFX_GUN_LEVEL_UP_LATE" />
+				<Event Id="2518597844" Name="Play_SFX_GUN_LEVEL_UP_QUIET" />
+				<Event Id="369940343" Name="Play_SFX_GUN_LEVEL_UP_ROCK" />
+				<Event Id="1874583857" Name="Play_SFX_GUN_LOAD_LVL1" />
+				<Event Id="1874583858" Name="Play_SFX_GUN_LOAD_LVL2" />
+				<Event Id="1874583859" Name="Play_SFX_GUN_LOAD_LVL3" />
+				<Event Id="3171961287" Name="Play_SFX_HEALTH_PICKUP" />
+				<Event Id="2829826871" Name="Play_SFX_LOOP_DEPOT_RETREAT" />
+				<Event Id="3214545188" Name="Play_SFX_LOOP_DEPOT_RISING" />
+				<Event Id="649142337" Name="Play_SFX_LOOP_ENERGY_DAMAGE" />
+				<Event Id="1965785010" Name="Play_SFX_LOOP_ENERGY_PILLAR" />
+				<Event Id="934450951" Name="Play_SFX_LOOP_LASER_INTENSITY1" />
+				<Event Id="934450948" Name="Play_SFX_LOOP_LASER_INTENSITY2" />
+				<Event Id="934450949" Name="Play_SFX_LOOP_LASER_INTENSITY3" />
+				<Event Id="1960090546" Name="Play_SFX_LOOP_PULL" />
+				<Event Id="838393364" Name="Play_SFX_MACHINEGUN_FIRE" />
+				<Event Id="3219583602" Name="Play_SFX_MEDIUM_ATTACK" />
+				<Event Id="1928734704" Name="Play_SFX_MEDIUM_MORTAR_CHARGE" />
+				<Event Id="2059770668" Name="Play_SFX_MEDIUM_MORTAR_SHOT" />
+				<Event Id="15825018" Name="Play_SFX_MENU_ACCEPT" />
+				<Event Id="3684542512" Name="Play_SFX_MENU_HOVER" />
+				<Event Id="3428194388" Name="Play_SFX_METAL_EXPLOSION_DEATH" />
+				<Event Id="1591758634" Name="Play_SFX_PLAYER_DEATH" />
+				<Event Id="1324249654" Name="Play_SFX_PLAYER_FOOTSTEP" />
+				<Event Id="1067524079" Name="Play_SFX_PLAYER_HURT" />
+				<Event Id="2510588518" Name="Play_SFX_PUSH" />
+				<Event Id="3164533483" Name="Play_SFX_SHIELD_ACTIVATE" />
+				<Event Id="2111074242" Name="Play_SFX_SHIELD_DEACTIVATE" />
+				<Event Id="2327111939" Name="Play_SFX_SHIELD_EXPLOSIVE_DAMAGE" />
+				<Event Id="4129952690" Name="Play_SFX_SMALL_ATTACK" />
+				<Event Id="578349249" Name="Play_SFX_TARGET" />
+				<Event Id="3437984392" Name="Play_SFX_TARGET_ENEMY" />
+				<Event Id="672115297" Name="Play_SFX_WEAPON_MENU_CLOSE" />
+				<Event Id="3044865667" Name="Play_SFX_WEAPON_MENU_OPEN" />
+				<Event Id="1403040831" Name="Play_SHIELD_PROJECTILE_DAMAGE" />
+				<Event Id="3679762312" Name="Resume_All" />
+				<Event Id="452547817" Name="Stop_All" />
+				<Event Id="2124872243" Name="Stop_MX_TRACK_01" />
+				<Event Id="2124872240" Name="Stop_MX_TRACK_02" />
+				<Event Id="2124872241" Name="Stop_MX_TRACK_03" />
+				<Event Id="2124872246" Name="Stop_MX_TRACK_04" />
+				<Event Id="4143583437" Name="Stop_SFX_LOOP_DEPOT_RETREAT" />
+				<Event Id="972004414" Name="Stop_SFX_LOOP_DEPOT_RISING" />
+				<Event Id="805641539" Name="Stop_SFX_LOOP_ENERGY_DAMAGE" />
+				<Event Id="2919300340" Name="Stop_SFX_LOOP_ENERGY_PILLAR" />
+				<Event Id="577318177" Name="Stop_SFX_LOOP_LASER_INTENSITY1" />
+				<Event Id="577318178" Name="Stop_SFX_LOOP_LASER_INTENSITY2" />
+				<Event Id="577318179" Name="Stop_SFX_LOOP_LASER_INTENSITY3" />
+				<Event Id="2346750684" Name="Stop_SFX_LOOP_PULL" />
+			</IncludedEvents>
+			<IncludedDialogueEvents />
+			<ReferencedStreamedFiles />
+			<IncludedFullFiles>
+				<File Id="825310254" Language="SFX">
+					<ShortName>01 - Kalki.wav</ShortName>
+					<Path>sfx\01 - kalki_63f2aa97.wem</Path>
+				</File>
+				<File Id="1049139075" Language="SFX">
+					<ShortName>05 - E.S. Posthumus - Ebla.wav</ShortName>
+					<Path>sfx\05 - e.s. posthumus - ebla_a041a31e.wem</Path>
+				</File>
+				<File Id="656458343" Language="SFX">
+					<ShortName>13 - Krosah.wav</ShortName>
+					<Path>sfx\13 - krosah_6d9a63d6.wem</Path>
+				</File>
+				<File Id="73374257" Language="SFX">
+					<ShortName>14 - Anumati.wav</ShortName>
+					<Path>sfx\14 - anumati_6ef141ec.wem</Path>
+				</File>
+				<File Id="99509990" Language="SFX">
+					<ShortName>Critical_Mass_01.wav</ShortName>
+					<Path>sfx\critical_mass_01_c4a7d9e6.wem</Path>
+				</File>
+				<File Id="955638912" Language="SFX">
+					<ShortName>Critical_Mass_02.wav</ShortName>
+					<Path>sfx\critical_mass_02_124fcb0e.wem</Path>
+				</File>
+				<File Id="316943573" Language="SFX">
+					<ShortName>DX_ANNOUNCER_WAVE_01.wav</ShortName>
+					<Path>sfx\dx_announcer_wave_01_db50bab0.wem</Path>
+				</File>
+				<File Id="928007647" Language="SFX">
+					<ShortName>DX_ANNOUNCER_WAVE_02.wav</ShortName>
+					<Path>sfx\dx_announcer_wave_02_db50bab0.wem</Path>
+				</File>
+				<File Id="544870020" Language="SFX">
+					<ShortName>DX_ANNOUNCER_WAVE_03.wav</ShortName>
+					<Path>sfx\dx_announcer_wave_03_db50bab0.wem</Path>
+				</File>
+				<File Id="5048683" Language="SFX">
+					<ShortName>DX_ANNOUNCER_WAVE_04.wav</ShortName>
+					<Path>sfx\dx_announcer_wave_04_db50bab0.wem</Path>
+				</File>
+				<File Id="404268139" Language="SFX">
+					<ShortName>DX_ANNOUNCER_WAVE_05.wav</ShortName>
+					<Path>sfx\dx_announcer_wave_05_db50bab0.wem</Path>
+				</File>
+				<File Id="6865684" Language="SFX">
+					<ShortName>DX_ANNOUNCER_WAVE_06.wav</ShortName>
+					<Path>sfx\dx_announcer_wave_06_db50bab0.wem</Path>
+				</File>
+				<File Id="44024896" Language="SFX">
+					<ShortName>DX_ANNOUNCER_WAVE_07.wav</ShortName>
+					<Path>sfx\dx_announcer_wave_07_db50bab0.wem</Path>
+				</File>
+				<File Id="288559304" Language="SFX">
+					<ShortName>DX_BOSS_DEATH.wav</ShortName>
+					<Path>sfx\dx_boss_death_db50bab0.wem</Path>
+				</File>
+				<File Id="176470558" Language="SFX">
+					<ShortName>DX_BOSS_EXTERMINATE.wav</ShortName>
+					<Path>sfx\dx_boss_exterminate_db50bab0.wem</Path>
+				</File>
+				<File Id="918370490" Language="SFX">
+					<ShortName>DX_BOSS_PLANETS.wav</ShortName>
+					<Path>sfx\dx_boss_planets_db50bab0.wem</Path>
+				</File>
+				<File Id="931887047" Language="SFX">
+					<ShortName>DX_BOSS_READY_01.wav</ShortName>
+					<Path>sfx\dx_boss_ready_01_db50bab0.wem</Path>
+				</File>
+				<File Id="225839789" Language="SFX">
+					<ShortName>DX_BOSS_READY_02.wav</ShortName>
+					<Path>sfx\dx_boss_ready_02_db50bab0.wem</Path>
+				</File>
+				<File Id="901750454" Language="SFX">
+					<ShortName>DX_BOSS_READY_03.wav</ShortName>
+					<Path>sfx\dx_boss_ready_03_db50bab0.wem</Path>
+				</File>
+				<File Id="466492100" Language="SFX">
+					<ShortName>DX_BOSS_RESISTANCE.wav</ShortName>
+					<Path>sfx\dx_boss_resistance_db50bab0.wem</Path>
+				</File>
+				<File Id="983800907" Language="SFX">
+					<ShortName>DX_BOSS_TAUNT.wav</ShortName>
+					<Path>sfx\dx_boss_taunt_db50bab0.wem</Path>
+				</File>
+				<File Id="332477282" Language="SFX">
+					<ShortName>DX_FINAL_WAVE.wav</ShortName>
+					<Path>sfx\dx_final_wave_db50bab0.wem</Path>
+				</File>
+				<File Id="289168605" Language="SFX">
+					<ShortName>DX_PLAYER_DEATH_01.wav</ShortName>
+					<Path>sfx\dx_player_death_01_cee53011.wem</Path>
+				</File>
+				<File Id="52204280" Language="SFX">
+					<ShortName>DX_PLAYER_DEATH_02.wav</ShortName>
+					<Path>sfx\dx_player_death_02_cee53011.wem</Path>
+				</File>
+				<File Id="765314996" Language="SFX">
+					<ShortName>DX_PLAYER_DEATH_03.wav</ShortName>
+					<Path>sfx\dx_player_death_03_cee53011.wem</Path>
+				</File>
+				<File Id="20766341" Language="SFX">
+					<ShortName>DX_PLAYER_DEATH_04.wav</ShortName>
+					<Path>sfx\dx_player_death_04_cee53011.wem</Path>
+				</File>
+				<File Id="775422080" Language="SFX">
+					<ShortName>DX_PLAYER_DEATH_05.wav</ShortName>
+					<Path>sfx\dx_player_death_05_cee53011.wem</Path>
+				</File>
+				<File Id="627279661" Language="SFX">
+					<ShortName>DX_PLAYER_DEATH_06.wav</ShortName>
+					<Path>sfx\dx_player_death_06_cee53011.wem</Path>
+				</File>
+				<File Id="459851289" Language="SFX">
+					<ShortName>DX_PLAYER_DEATH_07.wav</ShortName>
+					<Path>sfx\dx_player_death_07_cee53011.wem</Path>
+				</File>
+				<File Id="606886919" Language="SFX">
+					<ShortName>DX_PLAYER_DEATH_08.wav</ShortName>
+					<Path>sfx\dx_player_death_08_cee53011.wem</Path>
+				</File>
+				<File Id="753155096" Language="SFX">
+					<ShortName>DX_PLAYER_EXCLAMATION_01.wav</ShortName>
+					<Path>sfx\dx_player_exclamation_01_db50bab0.wem</Path>
+				</File>
+				<File Id="202854708" Language="SFX">
+					<ShortName>DX_PLAYER_EXCLAMATION_02.wav</ShortName>
+					<Path>sfx\dx_player_exclamation_02_db50bab0.wem</Path>
+				</File>
+				<File Id="413030516" Language="SFX">
+					<ShortName>DX_PLAYER_EXCLAMATION_03.wav</ShortName>
+					<Path>sfx\dx_player_exclamation_03_db50bab0.wem</Path>
+				</File>
+				<File Id="294522899" Language="SFX">
+					<ShortName>DX_PLAYER_EXCLAMATION_04.wav</ShortName>
+					<Path>sfx\dx_player_exclamation_04_db50bab0.wem</Path>
+				</File>
+				<File Id="593010694" Language="SFX">
+					<ShortName>DX_PLAYER_EXCLAMATION_05.wav</ShortName>
+					<Path>sfx\dx_player_exclamation_05_db50bab0.wem</Path>
+				</File>
+				<File Id="1014021309" Language="SFX">
+					<ShortName>DX_PLAYER_EXCLAMATION_06.wav</ShortName>
+					<Path>sfx\dx_player_exclamation_06_db50bab0.wem</Path>
+				</File>
+				<File Id="862570680" Language="SFX">
+					<ShortName>DX_PLAYER_EXCLAMATION_07.wav</ShortName>
+					<Path>sfx\dx_player_exclamation_07_db50bab0.wem</Path>
+				</File>
+				<File Id="786378802" Language="SFX">
+					<ShortName>DX_PLAYER_EXCLAMATION_08.wav</ShortName>
+					<Path>sfx\dx_player_exclamation_08_db50bab0.wem</Path>
+				</File>
+				<File Id="782047776" Language="SFX">
+					<ShortName>DX_PLAYER_EXCLAMATION_09.wav</ShortName>
+					<Path>sfx\dx_player_exclamation_09_db50bab0.wem</Path>
+				</File>
+				<File Id="1031597759" Language="SFX">
+					<ShortName>DX_PLAYER_HURT_01.wav</ShortName>
+					<Path>sfx\dx_player_hurt_01_cee53011.wem</Path>
+				</File>
+				<File Id="1067162828" Language="SFX">
+					<ShortName>DX_PLAYER_HURT_02.wav</ShortName>
+					<Path>sfx\dx_player_hurt_02_cee53011.wem</Path>
+				</File>
+				<File Id="700387483" Language="SFX">
+					<ShortName>DX_PLAYER_HURT_03.wav</ShortName>
+					<Path>sfx\dx_player_hurt_03_cee53011.wem</Path>
+				</File>
+				<File Id="743474107" Language="SFX">
+					<ShortName>DX_PLAYER_HURT_04.wav</ShortName>
+					<Path>sfx\dx_player_hurt_04_cee53011.wem</Path>
+				</File>
+				<File Id="664601174" Language="SFX">
+					<ShortName>DX_PLAYER_HURT_05.wav</ShortName>
+					<Path>sfx\dx_player_hurt_05_cee53011.wem</Path>
+				</File>
+				<File Id="679652375" Language="SFX">
+					<ShortName>DX_PLAYER_HURT_06.wav</ShortName>
+					<Path>sfx\dx_player_hurt_06_cee53011.wem</Path>
+				</File>
+				<File Id="802261824" Language="SFX">
+					<ShortName>DX_RADIO_DEPOT_01.wav</ShortName>
+					<Path>sfx\dx_radio_depot_01_db50bab0.wem</Path>
+				</File>
+				<File Id="443569281" Language="SFX">
+					<ShortName>DX_RADIO_DEPOT_02.wav</ShortName>
+					<Path>sfx\dx_radio_depot_02_db50bab0.wem</Path>
+				</File>
+				<File Id="226789479" Language="SFX">
+					<ShortName>DX_RADIO_DEPOT_03.wav</ShortName>
+					<Path>sfx\dx_radio_depot_03_db50bab0.wem</Path>
+				</File>
+				<File Id="859326680" Language="SFX">
+					<ShortName>DX_RADIO_DEPOT_04.wav</ShortName>
+					<Path>sfx\dx_radio_depot_04_db50bab0.wem</Path>
+				</File>
+				<File Id="457261881" Language="SFX">
+					<ShortName>DX_RADIO_DEPOT_05.wav</ShortName>
+					<Path>sfx\dx_radio_depot_05_db50bab0.wem</Path>
+				</File>
+				<File Id="565205029" Language="SFX">
+					<ShortName>DX_RADIO_HEALTH_01.wav</ShortName>
+					<Path>sfx\dx_radio_health_01_db50bab0.wem</Path>
+				</File>
+				<File Id="654876985" Language="SFX">
+					<ShortName>DX_RADIO_HEALTH_02.wav</ShortName>
+					<Path>sfx\dx_radio_health_02_db50bab0.wem</Path>
+				</File>
+				<File Id="221896813" Language="SFX">
+					<ShortName>DX_RADIO_HEALTH_03.wav</ShortName>
+					<Path>sfx\dx_radio_health_03_db50bab0.wem</Path>
+				</File>
+				<File Id="711917217" Language="SFX">
+					<ShortName>DX_RADIO_HEALTH_04.wav</ShortName>
+					<Path>sfx\dx_radio_health_04_db50bab0.wem</Path>
+				</File>
+				<File Id="166124207" Language="SFX">
+					<ShortName>DX_RADIO_HEALTH_05.wav</ShortName>
+					<Path>sfx\dx_radio_health_05_db50bab0.wem</Path>
+				</File>
+				<File Id="903907843" Language="SFX">
+					<ShortName>DX_RADIO_INCOMING_01.wav</ShortName>
+					<Path>sfx\dx_radio_incoming_01_db50bab0.wem</Path>
+				</File>
+				<File Id="462588303" Language="SFX">
+					<ShortName>DX_RADIO_INCOMING_02.wav</ShortName>
+					<Path>sfx\dx_radio_incoming_02_db50bab0.wem</Path>
+				</File>
+				<File Id="719681306" Language="SFX">
+					<ShortName>DX_RADIO_INCOMING_03.wav</ShortName>
+					<Path>sfx\dx_radio_incoming_03_db50bab0.wem</Path>
+				</File>
+				<File Id="229235115" Language="SFX">
+					<ShortName>DX_RADIO_INCOMING_04.wav</ShortName>
+					<Path>sfx\dx_radio_incoming_04_db50bab0.wem</Path>
+				</File>
+				<File Id="506477488" Language="SFX">
+					<ShortName>DX_RADIO_INCOMING_05.wav</ShortName>
+					<Path>sfx\dx_radio_incoming_05_db50bab0.wem</Path>
+				</File>
+				<File Id="953640235" Language="SFX">
+					<ShortName>DX_RADIO_INCOMING_06.wav</ShortName>
+					<Path>sfx\dx_radio_incoming_06_db50bab0.wem</Path>
+				</File>
+				<File Id="268574921" Language="SFX">
+					<ShortName>DX_RADIO_PROVISIONS_01.wav</ShortName>
+					<Path>sfx\dx_radio_provisions_01_db50bab0.wem</Path>
+				</File>
+				<File Id="78059681" Language="SFX">
+					<ShortName>DX_RADIO_PROVISIONS_02.wav</ShortName>
+					<Path>sfx\dx_radio_provisions_02_db50bab0.wem</Path>
+				</File>
+				<File Id="889288206" Language="SFX">
+					<ShortName>DX_RADIO_PROVISIONS_03.wav</ShortName>
+					<Path>sfx\dx_radio_provisions_03_db50bab0.wem</Path>
+				</File>
+				<File Id="420358511" Language="SFX">
+					<ShortName>DX_RADIO_PROVISIONS_04.wav</ShortName>
+					<Path>sfx\dx_radio_provisions_04_db50bab0.wem</Path>
+				</File>
+				<File Id="822599890" Language="SFX">
+					<ShortName>DX_RADIO_PROVISIONS_05.wav</ShortName>
+					<Path>sfx\dx_radio_provisions_05_db50bab0.wem</Path>
+				</File>
+				<File Id="125411295" Language="SFX">
+					<ShortName>DX_RADIO_PROVISIONS_06.wav</ShortName>
+					<Path>sfx\dx_radio_provisions_06_db50bab0.wem</Path>
+				</File>
+				<File Id="737863312" Language="SFX">
+					<ShortName>DX_RADIO_PROVISIONS_07.wav</ShortName>
+					<Path>sfx\dx_radio_provisions_07_db50bab0.wem</Path>
+				</File>
+				<File Id="1072336970" Language="SFX">
+					<ShortName>DX_WAVE_COMPLETE.wav</ShortName>
+					<Path>sfx\dx_wave_complete_db50bab0.wem</Path>
+				</File>
+				<File Id="27015862" Language="SFX">
+					<ShortName>SFX_BOMB_FALL.wav</ShortName>
+					<Path>sfx\sfx_bomb_fall_cee53011.wem</Path>
+				</File>
+				<File Id="220560873" Language="SFX">
+					<ShortName>SFX_BOSS_DAMAGE_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_boss_damage_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="93179566" Language="SFX">
+					<ShortName>SFX_BOSS_DAMAGE_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_boss_damage_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="69188797" Language="SFX">
+					<ShortName>SFX_BOSS_DAMAGE_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_boss_damage_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="560657325" Language="SFX">
+					<ShortName>SFX_BOSS_ENERGY_FADE_01.wav</ShortName>
+					<Path>sfx\sfx_boss_energy_fade_01_cee53011.wem</Path>
+				</File>
+				<File Id="69420207" Language="SFX">
+					<ShortName>SFX_BOSS_ENERGY_FADE_02.wav</ShortName>
+					<Path>sfx\sfx_boss_energy_fade_02_cee53011.wem</Path>
+				</File>
+				<File Id="222654902" Language="SFX">
+					<ShortName>SFX_BOSS_ENERGY_SPHERE.wav</ShortName>
+					<Path>sfx\sfx_boss_energy_sphere_cee53011.wem</Path>
+				</File>
+				<File Id="103591506" Language="SFX">
+					<ShortName>SFX_CRATE_DESTROY.wav</ShortName>
+					<Path>sfx\sfx_crate_destroy_cee53011.wem</Path>
+				</File>
+				<File Id="1030429369" Language="SFX">
+					<ShortName>SFX_DEPOT_ACTIVATE_ALARM.wav</ShortName>
+					<Path>sfx\sfx_depot_activate_alarm_cee53011.wem</Path>
+				</File>
+				<File Id="654854701" Language="SFX">
+					<ShortName>SFX_DEPOT_CRASH.wav</ShortName>
+					<Path>sfx\sfx_depot_crash_cee53011.wem</Path>
+				</File>
+				<File Id="279811468" Language="SFX">
+					<ShortName>SFX_ENEMY_STUNNED_01.wav</ShortName>
+					<Path>sfx\sfx_enemy_stunned_01_cee53011.wem</Path>
+				</File>
+				<File Id="328825092" Language="SFX">
+					<ShortName>SFX_ENEMY_STUNNED_02.wav</ShortName>
+					<Path>sfx\sfx_enemy_stunned_02_cee53011.wem</Path>
+				</File>
+				<File Id="726823324" Language="SFX">
+					<ShortName>SFX_ENEMY_STUNNED_03.wav</ShortName>
+					<Path>sfx\sfx_enemy_stunned_03_cee53011.wem</Path>
+				</File>
+				<File Id="412069581" Language="SFX">
+					<ShortName>SFX_ENEMY_STUNNED_04.wav</ShortName>
+					<Path>sfx\sfx_enemy_stunned_04_cee53011.wem</Path>
+				</File>
+				<File Id="303667098" Language="SFX">
+					<ShortName>SFX_ENEMY_STUNNED_05.wav</ShortName>
+					<Path>sfx\sfx_enemy_stunned_05_cee53011.wem</Path>
+				</File>
+				<File Id="417829178" Language="SFX">
+					<ShortName>SFX_ENEMY_VACUUM.wav</ShortName>
+					<Path>sfx\sfx_enemy_vacuum_cee53011.wem</Path>
+				</File>
+				<File Id="1046744945" Language="SFX">
+					<ShortName>SFX_ENERGY_DEATH_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_energy_death_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="598167597" Language="SFX">
+					<ShortName>SFX_ENERGY_DEATH_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_energy_death_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="599988799" Language="SFX">
+					<ShortName>SFX_ENERGY_DEATH_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_energy_death_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="1030937031" Language="SFX">
+					<ShortName>SFX_EXPLOSION_DAMAGE_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_explosion_damage_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="106117576" Language="SFX">
+					<ShortName>SFX_EXPLOSION_DAMAGE_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_explosion_damage_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="566379715" Language="SFX">
+					<ShortName>SFX_EXPLOSION_DAMAGE_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_explosion_damage_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="243060684" Language="SFX">
+					<ShortName>SFX_EXPLOSION_VARIATION1_INTENSITY1.wav</ShortName>
+					<Path>sfx\sfx_explosion_variation1_intensity1_cee53011.wem</Path>
+				</File>
+				<File Id="760474362" Language="SFX">
+					<ShortName>SFX_EXPLOSION_VARIATION1_INTENSITY2.wav</ShortName>
+					<Path>sfx\sfx_explosion_variation1_intensity2_cee53011.wem</Path>
+				</File>
+				<File Id="261205765" Language="SFX">
+					<ShortName>SFX_EXPLOSION_VARIATION1_INTENSITY3.wav</ShortName>
+					<Path>sfx\sfx_explosion_variation1_intensity3_cee53011.wem</Path>
+				</File>
+				<File Id="3596401" Language="SFX">
+					<ShortName>SFX_EXPLOSION_VARIATION2_INTENSITY1.wav</ShortName>
+					<Path>sfx\sfx_explosion_variation2_intensity1_cee53011.wem</Path>
+				</File>
+				<File Id="109229843" Language="SFX">
+					<ShortName>SFX_EXPLOSION_VARIATION2_INTENSITY2.wav</ShortName>
+					<Path>sfx\sfx_explosion_variation2_intensity2_cee53011.wem</Path>
+				</File>
+				<File Id="320609815" Language="SFX">
+					<ShortName>SFX_EXPLOSION_VARIATION2_INTENSITY3.wav</ShortName>
+					<Path>sfx\sfx_explosion_variation2_intensity3_cee53011.wem</Path>
+				</File>
+				<File Id="432874105" Language="SFX">
+					<ShortName>SFX_EXPLOSION_VARIATION3_INTENSITY1.wav</ShortName>
+					<Path>sfx\sfx_explosion_variation3_intensity1_cee53011.wem</Path>
+				</File>
+				<File Id="355315841" Language="SFX">
+					<ShortName>SFX_EXPLOSION_VARIATION3_INTENSITY2.wav</ShortName>
+					<Path>sfx\sfx_explosion_variation3_intensity2_cee53011.wem</Path>
+				</File>
+				<File Id="419379149" Language="SFX">
+					<ShortName>SFX_EXPLOSION_VARIATION3_INTENSITY3.wav</ShortName>
+					<Path>sfx\sfx_explosion_variation3_intensity3_cee53011.wem</Path>
+				</File>
+				<File Id="883231967" Language="SFX">
+					<ShortName>SFX_GUN_LEVEL_UP.wav</ShortName>
+					<Path>sfx\sfx_gun_level_up_cee53011.wem</Path>
+				</File>
+				<File Id="975229328" Language="SFX">
+					<ShortName>SFX_GUN_LEVEL_UP_LATE.wav</ShortName>
+					<Path>sfx\sfx_gun_level_up_late_cee53011.wem</Path>
+				</File>
+				<File Id="845202078" Language="SFX">
+					<ShortName>SFX_GUN_LEVEL_UP_QUIET.wav</ShortName>
+					<Path>sfx\sfx_gun_level_up_quiet_cee53011.wem</Path>
+				</File>
+				<File Id="287426410" Language="SFX">
+					<ShortName>SFX_GUN_LEVEL_UP_ROCK.wav</ShortName>
+					<Path>sfx\sfx_gun_level_up_rock_cee53011.wem</Path>
+				</File>
+				<File Id="388851361" Language="SFX">
+					<ShortName>SFX_GUN_LOAD_LVL1.wav</ShortName>
+					<Path>sfx\sfx_gun_load_lvl1_cee53011.wem</Path>
+				</File>
+				<File Id="401757728" Language="SFX">
+					<ShortName>SFX_GUN_LOAD_LVL2.wav</ShortName>
+					<Path>sfx\sfx_gun_load_lvl2_cee53011.wem</Path>
+				</File>
+				<File Id="559006641" Language="SFX">
+					<ShortName>SFX_GUN_LOAD_LVL3.wav</ShortName>
+					<Path>sfx\sfx_gun_load_lvl3_cee53011.wem</Path>
+				</File>
+				<File Id="132390713" Language="SFX">
+					<ShortName>SFX_HEALTH_PICKUP.wav</ShortName>
+					<Path>sfx\sfx_health_pickup_cee53011.wem</Path>
+				</File>
+				<File Id="349262390" Language="SFX">
+					<ShortName>SFX_LASER_CHARGE_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_laser_charge_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="915159292" Language="SFX">
+					<ShortName>SFX_LASER_CHARGE_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_laser_charge_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="183817324" Language="SFX">
+					<ShortName>SFX_LASER_CHARGE_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_laser_charge_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="774714268" Language="SFX">
+					<ShortName>SFX_LASER_FIRE_VARIATION1_INTENSITY1.wav</ShortName>
+					<Path>sfx\sfx_laser_fire_variation1_intensity1_cee53011.wem</Path>
+				</File>
+				<File Id="998697413" Language="SFX">
+					<ShortName>SFX_LASER_FIRE_VARIATION1_INTENSITY2.wav</ShortName>
+					<Path>sfx\sfx_laser_fire_variation1_intensity2_cee53011.wem</Path>
+				</File>
+				<File Id="252959255" Language="SFX">
+					<ShortName>SFX_LASER_FIRE_VARIATION1_INTENSITY3.wav</ShortName>
+					<Path>sfx\sfx_laser_fire_variation1_intensity3_cee53011.wem</Path>
+				</File>
+				<File Id="388748499" Language="SFX">
+					<ShortName>SFX_LASER_FIRE_VARIATION2_INTENSITY1.wav</ShortName>
+					<Path>sfx\sfx_laser_fire_variation2_intensity1_cee53011.wem</Path>
+				</File>
+				<File Id="448379208" Language="SFX">
+					<ShortName>SFX_LASER_FIRE_VARIATION2_INTENSITY2.wav</ShortName>
+					<Path>sfx\sfx_laser_fire_variation2_intensity2_cee53011.wem</Path>
+				</File>
+				<File Id="1043439276" Language="SFX">
+					<ShortName>SFX_LASER_FIRE_VARIATION2_INTENSITY3.wav</ShortName>
+					<Path>sfx\sfx_laser_fire_variation2_intensity3_cee53011.wem</Path>
+				</File>
+				<File Id="372678616" Language="SFX">
+					<ShortName>SFX_LASER_FIRE_VARIATION3_INTENSITY1.wav</ShortName>
+					<Path>sfx\sfx_laser_fire_variation3_intensity1_cee53011.wem</Path>
+				</File>
+				<File Id="247360479" Language="SFX">
+					<ShortName>SFX_LASER_FIRE_VARIATION3_INTENSITY2.wav</ShortName>
+					<Path>sfx\sfx_laser_fire_variation3_intensity2_cee53011.wem</Path>
+				</File>
+				<File Id="287630147" Language="SFX">
+					<ShortName>SFX_LASER_FIRE_VARIATION3_INTENSITY3.wav</ShortName>
+					<Path>sfx\sfx_laser_fire_variation3_intensity3_cee53011.wem</Path>
+				</File>
+				<File Id="314262621" Language="SFX">
+					<ShortName>SFX_LASER_OFF_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_laser_off_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="439287033" Language="SFX">
+					<ShortName>SFX_LASER_OFF_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_laser_off_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="892982870" Language="SFX">
+					<ShortName>SFX_LASER_OFF_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_laser_off_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="580836483" Language="SFX">
+					<ShortName>SFX_LOOP_DEPOT_RETREAT.wav</ShortName>
+					<Path>sfx\sfx_loop_depot_retreat_37a83b9d.wem</Path>
+				</File>
+				<File Id="305257012" Language="SFX">
+					<ShortName>SFX_LOOP_DEPOT_RISING.wav</ShortName>
+					<Path>sfx\sfx_loop_depot_rising_736be183.wem</Path>
+				</File>
+				<File Id="810335360" Language="SFX">
+					<ShortName>SFX_LOOP_ENERGY_DAMAGE.wav</ShortName>
+					<Path>sfx\sfx_loop_energy_damage_42563b8c.wem</Path>
+				</File>
+				<File Id="847759511" Language="SFX">
+					<ShortName>SFX_LOOP_ENERGY_PILLAR.wav</ShortName>
+					<Path>sfx\sfx_loop_energy_pillar_e52e3d83.wem</Path>
+				</File>
+				<File Id="750734272" Language="SFX">
+					<ShortName>SFX_LOOP_LASER_INTENSITY1.wav</ShortName>
+					<Path>sfx\sfx_loop_laser_intensity1_5f2b647a.wem</Path>
+				</File>
+				<File Id="537512704" Language="SFX">
+					<ShortName>SFX_LOOP_LASER_INTENSITY2.wav</ShortName>
+					<Path>sfx\sfx_loop_laser_intensity2_5f2b647a.wem</Path>
+				</File>
+				<File Id="951445444" Language="SFX">
+					<ShortName>SFX_LOOP_LASER_INTENSITY3.wav</ShortName>
+					<Path>sfx\sfx_loop_laser_intensity3_5f2b647a.wem</Path>
+				</File>
+				<File Id="923236683" Language="SFX">
+					<ShortName>SFX_LOOP_PULL.wav</ShortName>
+					<Path>sfx\sfx_loop_pull_8b775d3f.wem</Path>
+				</File>
+				<File Id="170869397" Language="SFX">
+					<ShortName>SFX_MACHINEGUN_FIRE_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_machinegun_fire_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="940506309" Language="SFX">
+					<ShortName>SFX_MACHINEGUN_FIRE_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_machinegun_fire_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="930329665" Language="SFX">
+					<ShortName>SFX_MACHINEGUN_FIRE_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_machinegun_fire_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="42617924" Language="SFX">
+					<ShortName>SFX_MACHINEGUN_FIRE_VARIATION4.wav</ShortName>
+					<Path>sfx\sfx_machinegun_fire_variation4_cee53011.wem</Path>
+				</File>
+				<File Id="330312022" Language="SFX">
+					<ShortName>SFX_MACHINEGUN_FIRE_VARIATION5.wav</ShortName>
+					<Path>sfx\sfx_machinegun_fire_variation5_cee53011.wem</Path>
+				</File>
+				<File Id="950457528" Language="SFX">
+					<ShortName>SFX_MEDIUM_ATTACK.wav</ShortName>
+					<Path>sfx\sfx_medium_attack_cee53011.wem</Path>
+				</File>
+				<File Id="408488490" Language="SFX">
+					<ShortName>SFX_MEDIUM_MORTAR_CHARGE.wav</ShortName>
+					<Path>sfx\sfx_medium_mortar_charge_cee53011.wem</Path>
+				</File>
+				<File Id="769940700" Language="SFX">
+					<ShortName>SFX_MEDIUM_MORTAR_SHOT.wav</ShortName>
+					<Path>sfx\sfx_medium_mortar_shot_cee53011.wem</Path>
+				</File>
+				<File Id="3399630" Language="SFX">
+					<ShortName>SFX_MENU_ACCEPT.wav</ShortName>
+					<Path>sfx\sfx_menu_accept_cee53011.wem</Path>
+				</File>
+				<File Id="919380991" Language="SFX">
+					<ShortName>SFX_MENU_HOVER.wav</ShortName>
+					<Path>sfx\sfx_menu_hover_cee53011.wem</Path>
+				</File>
+				<File Id="417139899" Language="SFX">
+					<ShortName>SFX_METAL_EXPLOSION_DEATH_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_metal_explosion_death_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="71619578" Language="SFX">
+					<ShortName>SFX_METAL_EXPLOSION_DEATH_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_metal_explosion_death_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="345949126" Language="SFX">
+					<ShortName>SFX_METAL_EXPLOSION_DEATH_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_metal_explosion_death_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="631644936" Language="SFX">
+					<ShortName>SFX_PLAYER_FOOTSTEP_01.wav</ShortName>
+					<Path>sfx\sfx_player_footstep_01_cee53011.wem</Path>
+				</File>
+				<File Id="228570775" Language="SFX">
+					<ShortName>SFX_PLAYER_FOOTSTEP_02.wav</ShortName>
+					<Path>sfx\sfx_player_footstep_02_cee53011.wem</Path>
+				</File>
+				<File Id="1017216484" Language="SFX">
+					<ShortName>SFX_PLAYER_PHYSICALHIT_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_player_physicalhit_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="570585639" Language="SFX">
+					<ShortName>SFX_PLAYER_PHYSICALHIT_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_player_physicalhit_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="79683743" Language="SFX">
+					<ShortName>SFX_PLAYER_PHYSICALHIT_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_player_physicalhit_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="626920217" Language="SFX">
+					<ShortName>SFX_PULL_OFF.wav</ShortName>
+					<Path>sfx\sfx_pull_off_cee53011.wem</Path>
+				</File>
+				<File Id="829785700" Language="SFX">
+					<ShortName>SFX_PULL_ON.wav</ShortName>
+					<Path>sfx\sfx_pull_on_cee53011.wem</Path>
+				</File>
+				<File Id="47337873" Language="SFX">
+					<ShortName>SFX_PUSH.wav</ShortName>
+					<Path>sfx\sfx_push_cee53011.wem</Path>
+				</File>
+				<File Id="835395602" Language="SFX">
+					<ShortName>SFX_SHIELD_ACTIVATE.wav</ShortName>
+					<Path>sfx\sfx_shield_activate_cee53011.wem</Path>
+				</File>
+				<File Id="928366063" Language="SFX">
+					<ShortName>SFX_SHIELD_DEACTIVATE.wav</ShortName>
+					<Path>sfx\sfx_shield_deactivate_cee53011.wem</Path>
+				</File>
+				<File Id="849503334" Language="SFX">
+					<ShortName>SFX_SHIELD_EXPLOSIVE_DAMAGE_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_shield_explosive_damage_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="902356576" Language="SFX">
+					<ShortName>SFX_SHIELD_EXPLOSIVE_DAMAGE_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_shield_explosive_damage_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="404920230" Language="SFX">
+					<ShortName>SFX_SHIELD_EXPLOSIVE_DAMAGE_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_shield_explosive_damage_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="95889409" Language="SFX">
+					<ShortName>SFX_SHIELD_INVINCIBLE_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_shield_invincible_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="100472125" Language="SFX">
+					<ShortName>SFX_SHIELD_INVINCIBLE_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_shield_invincible_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="304082447" Language="SFX">
+					<ShortName>SFX_SHIELD_INVINCIBLE_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_shield_invincible_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="656722247" Language="SFX">
+					<ShortName>SFX_SHIELD_PROJECTILE_DAMAGE_VARIATION1.wav</ShortName>
+					<Path>sfx\sfx_shield_projectile_damage_variation1_cee53011.wem</Path>
+				</File>
+				<File Id="489933899" Language="SFX">
+					<ShortName>SFX_SHIELD_PROJECTILE_DAMAGE_VARIATION2.wav</ShortName>
+					<Path>sfx\sfx_shield_projectile_damage_variation2_cee53011.wem</Path>
+				</File>
+				<File Id="267596273" Language="SFX">
+					<ShortName>SFX_SHIELD_PROJECTILE_DAMAGE_VARIATION3.wav</ShortName>
+					<Path>sfx\sfx_shield_projectile_damage_variation3_cee53011.wem</Path>
+				</File>
+				<File Id="166348501" Language="SFX">
+					<ShortName>SFX_SMALL_ATTACK_01.wav</ShortName>
+					<Path>sfx\sfx_small_attack_01_cee53011.wem</Path>
+				</File>
+				<File Id="13239546" Language="SFX">
+					<ShortName>SFX_SMALL_ATTACK_02.wav</ShortName>
+					<Path>sfx\sfx_small_attack_02_cee53011.wem</Path>
+				</File>
+				<File Id="7328875" Language="SFX">
+					<ShortName>SFX_SMALL_ATTACK_03.wav</ShortName>
+					<Path>sfx\sfx_small_attack_03_cee53011.wem</Path>
+				</File>
+				<File Id="623829027" Language="SFX">
+					<ShortName>SFX_SMALL_ATTACK_04.wav</ShortName>
+					<Path>sfx\sfx_small_attack_04_cee53011.wem</Path>
+				</File>
+				<File Id="999882389" Language="SFX">
+					<ShortName>SFX_TARGET.wav</ShortName>
+					<Path>sfx\sfx_target_cee53011.wem</Path>
+				</File>
+				<File Id="461465715" Language="SFX">
+					<ShortName>SFX_TARGET_ENEMY.wav</ShortName>
+					<Path>sfx\sfx_target_enemy_cee53011.wem</Path>
+				</File>
+				<File Id="562522969" Language="SFX">
+					<ShortName>SFX_WEAPON_MENU_CLOSE.wav</ShortName>
+					<Path>sfx\sfx_weapon_menu_close_cee53011.wem</Path>
+				</File>
+				<File Id="381172267" Language="SFX">
+					<ShortName>SFX_WEAPON_MENU_OPEN.wav</ShortName>
+					<Path>sfx\sfx_weapon_menu_open_cee53011.wem</Path>
+				</File>
+			</IncludedFullFiles>
+			<IncludedPrefetchFiles />
+			<ExternalSources />
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

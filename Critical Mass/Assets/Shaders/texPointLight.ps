@@ -1,0 +1,62 @@
+ // Textured point light pixel shader
+#version 130
+
+out vec4 vFragColor;
+
+uniform vec4 vColor;
+uniform float ambientIntensity;
+uniform float diffuseIntensity;
+uniform float linearAttenuation;
+uniform float quadraticAttenuation;
+uniform sampler2D textureUnit0;
+uniform sampler2D textureUnit1;
+uniform sampler2D textureUnit2;
+
+in vec2 vTex;
+
+smooth in vec3 vVaryingNormal;
+smooth in vec3 vVaryingLightDir;
+smooth in vec3 vVaryingToEye;
+smooth in float fDistance;
+
+void main( void )
+{
+	if( fDistance > 73.0 )
+		discard;
+	
+	vec4 color = texture2D( textureUnit0, vTex );
+	vFragColor = vec4( 0.0 );
+	
+	float NdotL = dot( vVaryingNormal, -vVaryingLightDir );
+	float intensity = clamp( NdotL, 0.0, 1.0 );
+	
+	float attenuation = clamp( 1.0 - fDistance / 64.0, 0.0, 1.0 );
+	
+	vec3 diffuse = intensity * attenuation * vec3( 0.8, 0.8, 1.0 ); // There is a hard-coded color here.
+	
+	vec3 H = normalize( vVaryingToEye - vVaryingLightDir );
+	float NdotH = dot( vVaryingNormal, H );
+	
+	intensity = pow( clamp( NdotH, 0.0, 1.0 ), 64.0 );
+	float lightDistanceSquared = fDistance * fDistance;
+	vec3 specular = intensity * /*yellowish light*/vec3( 1.0, 1.0, 0.8 ) */*specular power*/100.0 / lightDistanceSquared;
+	vec4 specSample = texture2D( textureUnit1, vTex );
+	specular *= specSample.xyz;
+	clamp( specular, 0.0, 1.0 );
+		
+	vec3 light = diffuse + specular;
+		
+	vFragColor.rgb += light;
+	
+	vFragColor.r = clamp( vFragColor.r, 0.0, color.r );
+	vFragColor.g = clamp( vFragColor.g, 0.0, color.g );
+	vFragColor.b = clamp( vFragColor.b, 0.0, color.b );
+	
+	vec4 emissiveSample = texture2D( textureUnit2, vTex );
+	if( emissiveSample.a > 0.1 )
+	{
+		vFragColor = emissiveSample * 2.0; //This will have to change if we get better emissive maps.
+	}
+	
+	vFragColor.a *= vColor.a;
+}

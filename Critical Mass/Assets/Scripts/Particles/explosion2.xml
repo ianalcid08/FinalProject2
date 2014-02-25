@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<Emitter>
+	<StartingPosition>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+	</StartingPosition>
+	<VelocityStart>
+		<X>2.0</X>
+		<Y>3.0</Y>
+		<Z>2.0</Z>
+	</VelocityStart>
+	<VelocityEnd>
+		<X>2.0</X>
+		<Y>5.0</Y>
+		<Z>2.0</Z>
+	</VelocityEnd>
+	<VelocityVary>
+		<X>1.0</X>
+		<Y>1.0</Y>
+		<Z>1.0</Z>
+	</VelocityVary>
+	
+	<AccelerationStart>
+		<X>2.0</X>
+		<Y>2.0</Y>
+		<Z>2.0</Z>
+	</AccelerationStart>
+	<AccelerationEnd>
+		<X>1.0</X>
+		<Y>1.0</Y>
+		<Z>1.0</Z>
+	</AccelerationEnd>
+	<AccelerationVary>
+		<X>1.0</X>
+		<Y>1.0</Y>
+		<Z>1.0</Z>
+	</AccelerationVary>
+	
+	
+		<ColorStart>
+		<A>10.0</A>
+		<R>10.0</R>
+		<G>10.0</G>
+		<B>10.0</B>
+	</ColorStart>
+	<ColorEnd>
+		<A>10.0</A>
+		<R>10.0</R>
+		<G>10.0</G>
+		<B>10.0</B>
+	</ColorEnd>
+	<ColorVary>
+		<A>1.0</A>
+		<R>1.0</R>
+		<G>1.0</G>
+		<B>1.0</B>
+	</ColorVary>
+	<size>
+		<start>10.0</start>
+		<end>10.0</end>
+		<vary>10.0</vary>
+	</size>
+
+	<life>
+		<start>10.0</start>
+		<vary>0.1</vary>
+	</life>
+	
+	
+	<Actions>
+		<rate>2.0</rate>
+		<active>10.0</active>
+	</Actions>
+	
+</Emitter>

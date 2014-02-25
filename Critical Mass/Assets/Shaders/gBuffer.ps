@@ -1,0 +1,40 @@
+// G-Buffer pixel shader
+#version 130
+
+// Obviously, this has a long way to go.  However, for right now, we're just 
+// test-rendering the diffuse component of everything.
+
+in vec2 vTex;
+in vec3 vVaryingNormal;
+in vec4 vVaryingPosition;
+uniform vec4 vColor;
+uniform sampler2D textureUnit0;
+
+
+// Wait to encode and decode normals until we can demonstrate the
+// normals in RGBA8 format.
+//vec2 EncodeNormal( vec3 n, vec3 view )
+//{
+//	float p = sqrt( n.z * 8 + 8 );
+//	return vec4( n.xy / p + 0.5 );
+//}
+//
+//vec3 DecodeNormal( vec2 enc, vec3 view )
+//{
+//	vec2 fenc = enc * 4 - 2;
+//	float f = dot( fenc, fenc );
+//	float g = sqrt( 1 - f / 4 );
+//	vec3 n;
+//	n.xy = fenc * g;
+//	n.z = 1 - f / 2;
+//	return n;
+//}
+
+void main( void )
+{
+	gl_FragData[0] = texture2D( textureUnit0, vTex ) * vColor;
+	gl_FragData[1] = vec4( normalize(vVaryingNormal) * 0.5 + 0.5, 0.0 );
+	gl_FragData[2] = vVaryingPosition;
+	gl_FragDepth = 1.0 - gl_FragCoord.z * gl_FragCoord.w;
+	// currently switched
+}

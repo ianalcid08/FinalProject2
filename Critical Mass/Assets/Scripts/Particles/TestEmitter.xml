@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<Emitter>
+	<isLooping>1</isLooping>
+
+	<isRandomLife>0</isRandomLife>
+	
+	<isRandomPos>1</isRandomPos>
+
+	<spawnRadius>2.0f</spawnRadius>
+
+	<particleLifeSpan>0.5f</particleLifeSpan>
+
+	<spawnRate>0.01f</spawnRate>
+
+	<XVelocity>0.0f</XVelocity>
+
+	<YVelocity>-1.0f</YVelocity>
+
+	<ZVelocity>0.0f</ZVelocity>
+
+	<XAcceleration>0.0f</XAcceleration>
+
+	<YAcceleration>0.8f</YAcceleration>
+
+	<ZAcceleration>0.0f</ZAcceleration>
+</Emitter>

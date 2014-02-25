@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="Critical Mass" Platform="Windows" Key="96910424-3" Motion="false">
+	<Plugins>
+		<Plugin Name="iZotope Hybrid Reverb" ID="135219" />
+		<Plugin Name="iZotope Trash Delay" ID="266291" />
+		<Plugin Name="Wwise Compressor" ID="7077891" />
+		<Plugin Name="Wwise Peak Limiter" ID="7208963" />
+		<Plugin Name="McDSP FutzBox" ID="7213059" />
+	</Plugins>
+</PluginInfo>

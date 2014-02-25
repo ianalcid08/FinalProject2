@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<Wave>
+	<totalSmallEnemy>
+		<X>10</X>
+	</totalSmallEnemy>
+
+	<totalMediumEnemy>
+		<X>2</X>
+	</totalMediumEnemy>
+
+	<totalLargeEnemy>
+		<X>0</X>
+	</totalLargeEnemy>
+
+	<SmallSpawnRate>
+		<X>1.5</X>
+	</SmallSpawnRate>
+	
+	<MediumSpawnRate>
+		<X>4.0</X>
+	</MediumSpawnRate>
+	
+	<LargeSpawnRate>
+		<X>0.0</X>
+	</LargeSpawnRate>
+
+	<ActiveDepots>
+		<X>4</X>
+	</ActiveDepots>
+
+</Wave>

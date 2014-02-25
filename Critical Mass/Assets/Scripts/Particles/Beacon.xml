@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<Emitter>
+	<isLooping>1</isLooping>
+
+	<isRandomLife>0</isRandomLife>
+	
+	<isRandomPos>1</isRandomPos>
+
+	<isRandVelocities>0</isRandVelocities>
+
+	<IsTargetted>0</IsTargetted>
+
+	<spawnRadius>4.0f</spawnRadius>
+
+	<particleLifeSpan>2.5f</particleLifeSpan>
+
+	<spawnRate>0.05f</spawnRate>
+
+	<XVelocity>0.0f</XVelocity>
+
+	<YVelocity>0.0f</YVelocity>
+
+	<ZVelocity>0.0f</ZVelocity>
+
+	<XAcceleration>0.0f</XAcceleration>
+
+	<YAcceleration>0.0f</YAcceleration>
+
+	<ZAcceleration>0.0f</ZAcceleration>
+
+	<RightOffSet>0.0f</RightOffSet>
+
+	<ForwardOffSet>0.0f</ForwardOffSet>
+
+	<UpOffSet>0.0f</UpOffSet>
+
+	<Duration>0.5f</Duration>
+
+	<ParticleCap>50</ParticleCap>
+
+	<ColorRED>0.0f</ColorRED>
+
+	<ColorBLUE>0.5f</ColorBLUE>
+
+	<ColorGREEN>1.0f</ColorGREEN>
+</Emitter>

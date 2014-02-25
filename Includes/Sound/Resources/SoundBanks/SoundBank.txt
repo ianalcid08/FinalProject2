@@ -1,0 +1,234 @@
+Event	ID	Name			Wwise Object Path	Notes
+	21750526	Play_FX_3D_Footsteps			\Default Work Unit\Play_FX_3D_Footsteps	
+	73471290	Play_FX_3D_Explosion			\Default Work Unit\Play_FX_3D_Explosion	
+	146308586	Stop_Lose_Sad_Music			\Default Work Unit\Stop_Lose_Sad_Music	
+	163704345	Play_FX_3D_Missle_Loop			\Default Work Unit\Play_FX_3D_Missle_Loop	
+	238807691	Play_Laser_Finish			\Default Work Unit\Play_Laser_Finish	
+	425165382	Play_FX_2D_AssaultRifle_Loop			\Default Work Unit\Play_FX_2D_AssaultRifle_Loop	
+	430329040	Play_DX_2D_UnderAttack			\Default Work Unit\Play_DX_2D_UnderAttack	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	696917685	Play_FX_2D_MagicPickup			\Default Work Unit\Play_FX_2D_MagicPickup	
+	726857588	Play_FX_2D_Forest_Loop			\Default Work Unit\Play_FX_2D_Forest_Loop	
+	891453498	Play_FX_3D_Bodyfall			\Default Work Unit\Play_FX_3D_Bodyfall	
+	905521127	Play_FX_2D_Car_Loop			\Default Work Unit\Play_FX_2D_Car_Loop	
+	943723731	Stop_DX_2D_Breathing_Loop			\Default Work Unit\Stop_DX_2D_Breathing_Loop	
+	947192042	Play_Laser_Charge_Up			\Default Work Unit\Play_Laser_Charge_Up	
+	969992391	Play_DX_3D_Attack			\Default Work Unit\Play_DX_3D_Attack	
+	987385568	Play_FX_2D_Jump			\Default Work Unit\Play_FX_2D_Jump	
+	1042256331	Stop_FX_3D_AssaultRifle_Loop			\Default Work Unit\Stop_FX_3D_AssaultRifle_Loop	
+	1070288727	Play_FX_3D_Punches			\Default Work Unit\Play_FX_3D_Punches	
+	1107108682	Play_FX_2D_AmmoPickup			\Default Work Unit\Play_FX_2D_AmmoPickup	
+	1162309286	Play_Medium_Attack			\Default Work Unit\Play_Medium_Attack	
+	1164886684	Play_Medium_Mortar_Charge			\Default Work Unit\Play_Medium_Mortar_Charge	
+	1203171421	Play_DX_2D_Hurt			\Default Work Unit\Play_DX_2D_Hurt	
+	1210250536	Play_Medium_Mortar_Shot			\Default Work Unit\Play_Medium_Mortar_Shot	
+	1256693076	Play_Laser_Loop			\Default Work Unit\Play_Laser_Loop	
+	1262658854	Stop_FX_2D_Alarm_Loop			\Default Work Unit\Stop_FX_2D_Alarm_Loop	
+	1456069603	Play_FX_2D_CoinPickup			\Default Work Unit\Play_FX_2D_CoinPickup	
+	1491931047	Play_FX_3D_WaterSplash			\Default Work Unit\Play_FX_3D_WaterSplash	
+	1526375285	Play_FX_2D_MenuAccept			\Default Work Unit\Play_FX_2D_MenuAccept	
+	1585471016	Play_FX_3D_Door_Open			\Default Work Unit\Play_FX_3D_Door_Open	
+	1728663298	Play_FX_2D_HealthPickup			\Default Work Unit\Play_FX_2D_HealthPickup	
+	1763800590	Play_DX_2D_Jump			\Default Work Unit\Play_DX_2D_Jump	
+	1902835760	Play_FX_3D_SmashCrate			\Default Work Unit\Play_FX_3D_SmashCrate	
+	2046371004	Play_FX_3D_Door_Close			\Default Work Unit\Play_FX_3D_Door_Close	
+	2067477830	Stop_Laser_Loop			\Default Work Unit\Stop_Laser_Loop	
+	2067887017	Play_FX_2D_Footsteps			\Default Work Unit\Play_FX_2D_Footsteps	
+	2068802240	Play_DX_2D_Death			\Default Work Unit\Play_DX_2D_Death	
+	2078529791	Play_FX_2D_MenuCancel			\Default Work Unit\Play_FX_2D_MenuCancel	
+	2175797879	Play_Countdown			\Default Work Unit\Play_Countdown	
+	2230580976	Play_MX_MusicLoop_02			\Default Work Unit\Play_MX_MusicLoop_02	
+	2230580977	Play_MX_MusicLoop_03			\Default Work Unit\Play_MX_MusicLoop_03	
+	2230580979	Play_MX_MusicLoop_01			\Default Work Unit\Play_MX_MusicLoop_01	
+	2230580980	Play_MX_MusicLoop_06			\Default Work Unit\Play_MX_MusicLoop_06	
+	2230580982	Play_MX_MusicLoop_04			\Default Work Unit\Play_MX_MusicLoop_04	
+	2230580983	Play_MX_MusicLoop_05			\Default Work Unit\Play_MX_MusicLoop_05	
+	2270579098	Play_Win_Cheering			\Default Work Unit\Play_Win_Cheering	
+	2337306830	Play_DX_2D_UnitCommands			\Default Work Unit\Play_DX_2D_UnitCommands	
+	2415006107	Play_FX_2D_Land			\Default Work Unit\Play_FX_2D_Land	
+	2622520724	Play_FX_2D_Underwater_Loop			\Default Work Unit\Play_FX_2D_Underwater_Loop	
+	2632226688	Play_FX_2D_Punches			\Default Work Unit\Play_FX_2D_Punches	
+	2666978119	Play_FX_2D_Rain_Loop			\Default Work Unit\Play_FX_2D_Rain_Loop	
+	2761704308	Stop_Mortar_Whistle			\Default Work Unit\Stop_Mortar_Whistle	
+	2882299664	Play_FX_2D_Beep			\Default Work Unit\Play_FX_2D_Beep	
+	3110195632	Play_FX_2D_Alarm_Loop			\Default Work Unit\Play_FX_2D_Alarm_Loop	
+	3135678882	Play_FX_2D_WeaponWhoosh			\Default Work Unit\Play_FX_2D_WeaponWhoosh	
+	3178288442	Stop_FX_2D_Underwater_Loop			\Default Work Unit\Stop_FX_2D_Underwater_Loop	
+	3193475582	Play_Mortar_Whistle			\Default Work Unit\Play_Mortar_Whistle	
+	3286584031	Stop_FX_3D_Missle_Loop			\Default Work Unit\Stop_FX_3D_Missle_Loop	
+	3290877581	Stop_FX_2D_Rain_Loop			\Default Work Unit\Stop_FX_2D_Rain_Loop	
+	3295936277	Play_FX_3D_AssaultRifle_Loop			\Default Work Unit\Play_FX_3D_AssaultRifle_Loop	
+	3359821848	Play_FX_3D_PistolShot			\Default Work Unit\Play_FX_3D_PistolShot	
+	3407866903	Play_FX_2D_Wind_Loop			\Default Work Unit\Play_FX_2D_Wind_Loop	
+	3412940309	Play_DX_2D_Breathing_Loop			\Default Work Unit\Play_DX_2D_Breathing_Loop	
+	3432959431	Play_DX_3D_Death			\Default Work Unit\Play_DX_3D_Death	
+	3553836542	Play_FX_3D_Lever_Switch			\Default Work Unit\Play_FX_3D_Lever_Switch	
+	3567964128	Stop_MX_MusicLoop_04			\Default Work Unit\Stop_MX_MusicLoop_04	
+	3567964129	Stop_MX_MusicLoop_05			\Default Work Unit\Stop_MX_MusicLoop_05	
+	3567964130	Stop_MX_MusicLoop_06			\Default Work Unit\Stop_MX_MusicLoop_06	
+	3567964133	Stop_MX_MusicLoop_01			\Default Work Unit\Stop_MX_MusicLoop_01	
+	3567964134	Stop_MX_MusicLoop_02			\Default Work Unit\Stop_MX_MusicLoop_02	
+	3567964135	Stop_MX_MusicLoop_03			\Default Work Unit\Stop_MX_MusicLoop_03	
+	3618765313	Play_FX_2D_PistolShot			\Default Work Unit\Play_FX_2D_PistolShot	
+	3621386429	Play_FX_2D_MenuMove_Hover			\Default Work Unit\Play_FX_2D_MenuMove_Hover	
+	3637374546	Play_FX_2D_MenuUnPause			\Default Work Unit\Play_FX_2D_MenuUnPause	
+	3679762312	Resume_All			\Default Work Unit\Resume_All	
+	3761829895	Play_DX_3D_Aggro			\Default Work Unit\Play_DX_3D_Aggro	
+	3804141356	Play_Level_Up			\Default Work Unit\Play_Level_Up	
+	3814004282	Play_FX_3D_Car_Loop			\Default Work Unit\Play_FX_3D_Car_Loop	
+	3836275424	Play_DX_3D_Hurt			\Default Work Unit\Play_DX_3D_Hurt	
+	3864097025	Pause_All			\Default Work Unit\Pause_All	
+	3877919460	Stop_FX_2D_AssaultRifle_Loop			\Default Work Unit\Stop_FX_2D_AssaultRifle_Loop	
+	3939718988	Stop_FX_3D_Car_Loop			\Default Work Unit\Stop_FX_3D_Car_Loop	
+	3953429448	Play_Lose_Sad_Music			\Default Work Unit\Play_Lose_Sad_Music	
+	3973443319	Play_FX_2D_SheildPickup			\Default Work Unit\Play_FX_2D_SheildPickup	
+	3991440524	Stop_Win_Cheering			\Default Work Unit\Stop_Win_Cheering	
+	4017587645	Stop_FX_2D_Wind_Loop			\Default Work Unit\Stop_FX_2D_Wind_Loop	
+	4023349039	Play_FX_3D_WeaponWhoosh			\Default Work Unit\Play_FX_3D_WeaponWhoosh	
+	4042539875	Play_FX_2D_Bodyfall			\Default Work Unit\Play_FX_2D_Bodyfall	
+	4050058769	Play_FX_3D_Jump			\Default Work Unit\Play_FX_3D_Jump	
+	4112129774	Play_FX_3D_Land			\Default Work Unit\Play_FX_3D_Land	
+	4123835918	Play_FX_2D_Klaxon_Loop			\Default Work Unit\Play_FX_2D_Klaxon_Loop	
+	4126538873	Play_DX_2D_Land			\Default Work Unit\Play_DX_2D_Land	
+	4195054897	Play_FX_2D_MenuPause			\Default Work Unit\Play_FX_2D_MenuPause	
+	4219667864	Stop_FX_2D_Klaxon_Loop			\Default Work Unit\Stop_FX_2D_Klaxon_Loop	
+	4240821802	Stop_FX_2D_Forest_Loop			\Default Work Unit\Stop_FX_2D_Forest_Loop	
+	4292106387	Play_FX_2D_MenuBackup			\Default Work Unit\Play_FX_2D_MenuBackup	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	238653005	Breathing			\Default Work Unit\Breathing	
+
+Switch	ID	Name	Switch Group			Notes
+	2519965310	Idol_Walk_Breathing	Breathing			
+	3743092174	Sprint_Breathing	Breathing			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	796049864	RPM			\Default Work Unit\RPM	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12951625	FX_3D_Missle_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\rocket_missile_loop01_0fd328fd.wem		\Actor-Mixer Hierarchy\FX\3D\Projectiles\FX_3D_Missle_Loop		15313
+	33543037	FX_3D_Bodyfall	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\bodyfall_concrete01_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Impacts\FX_3D_Bodyfall		18364
+	38425329	Punch_Boxing_FaceHit4	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\punch_boxing_facehit4_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Impacts\FX_2D_Punches\Punch_Boxing_FaceHit4		7763
+	46157926	FX_3D_WeaponWhoosh	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\whoosh_deep01_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Weapons\Melee\FX_3D_WeaponWhoosh		19319
+	53641100	Henchmen_01_Hurt_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_01_hurt_01_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Hurt\Henchmen_01_Hurt_01		6642
+	54641947	Mortar Whistle	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\mortar whistle_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Mortar Whistle		13398
+	58847391	Foot_Dirt1_BootJump7	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootjump7_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Jump\Foot_Dirt1_BootJump7		8239
+	65555632	Laser Finish Blast	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\laser finish blast_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Laser Finish Blast		49343
+	66645390	DX_2D_UnderAttack	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\dx_sidekick_underattack_01_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_UnderAttack		15224
+	83368234	FX_2D_Underwater_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\underwater_ambloop1_0c67b982.wem		\Actor-Mixer Hierarchy\FX\2D\Ambience\FX_2D_Underwater_Loop		14682
+	83535862	Agent_Land_05	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_land_05_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Land\Agent_Land_05		3838
+	86849089	DX_Sidekick_Death_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\dx_sidekick_death_02_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Death\DX_Sidekick_Death_02		14731
+	103608097	Henchmen_01_Attack_03	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_01_attack_03_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Attack\Henchmen_01_Attack_03		5701
+	113163960	Foot_Dirt1_BootJump1	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootjump1_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Jump\Foot_Dirt1_BootJump1		6308
+	118137773	Foot_Dirt1_BootLand5	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootland5_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Land\Foot_Dirt1_BootLand5		7291
+	119082756	FX_2D_Wind_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\wind_blowingloop1_0fc7c7bb.wem		\Actor-Mixer Hierarchy\FX\2D\Ambience\FX_2D_Wind_Loop		80766
+	123122664	Foot_Dirt1_BootWalk08	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootwalk08_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Footsteps\Foot_Dirt1_BootWalk08		9878
+	125508612	Foot_Dirt1_BootJump3	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootjump3_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Jump\Foot_Dirt1_BootJump3		10284
+	130332201	FX_3D_Door_Close	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\door_largewood_open01_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Doors\FX_3D_Door_Close		41373
+	135057958	Agent_Hit_beanbag_03	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_hit_beanbag_03_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Hurt\Agent_Hit_beanbag_03		3857
+	157765827	Foot_Dirt1_BootJump5	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootjump5_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Jump\Foot_Dirt1_BootJump5		9212
+	164332036	Foot_Dirt1_BootWalk04	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootwalk04_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Footsteps\Foot_Dirt1_BootWalk04		12796
+	177860526	Explo_Small_04	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\explo_small_04_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Explosions\FX_3D_Explosion\Explo_Small_04		24988
+	186574772	Henchmen_01_Attack_04	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_01_attack_04_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Attack\Henchmen_01_Attack_04		5719
+	188813553	Foot_Dirt1_BootLand2	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootland2_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Land\Foot_Dirt1_BootLand2		10955
+	190873091	Agent_Hit_beanbag_04	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_hit_beanbag_04_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Hurt\Agent_Hit_beanbag_04		3814
+	192860657	Agent_Land_03	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_land_03_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Land\Agent_Land_03		4657
+	194954479	FX_2D_CoinPickup	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\pickup_coins01_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Pickups\FX_2D_CoinPickup		11334
+	196342131	Agent_Hit_Bullet_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_hit_bullet_02_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Hurt\Agent_Hit_Bullet_02		10203
+	209263346	DX_Sidekick_Death_05	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\dx_sidekick_death_05_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Death\DX_Sidekick_Death_05		18271
+	209547262	Punch_Boxing_FaceHit3	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\punch_boxing_facehit3_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Impacts\FX_3D_Punches\Punch_Boxing_FaceHit3		5221
+	224907793	Foot_Dirt1_BootLand3	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootland3_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Land\Foot_Dirt1_BootLand3		10143
+	227129989	Level Up	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\level up_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Level Up		17692
+	233236693	Explo_Small_05	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\explo_small_05_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Explosions\FX_3D_Explosion\Explo_Small_05		16407
+	234350294	Win Cheering	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\win cheering_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Win Cheering		118551
+	248895595	Foot_Dirt1_BootWalk03	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootwalk03_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Footsteps\Foot_Dirt1_BootWalk03		9032
+	256680551	Explo_Small_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\explo_small_01_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Explosions\FX_3D_Explosion\Explo_Small_01		30992
+	259371108	Henchmen_01_Attack_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_01_attack_01_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Attack\Henchmen_01_Attack_01		5815
+	269948286	Medium Enemy Mortar Launch	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\medium enemy mortar launch_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Medium Enemy Mortar Launch		12677
+	280381218	FX_2D_MagicPickup	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\pickup_gembells01_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Pickups\FX_2D_MagicPickup		18582
+	286254975	Explo_Small_06	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\explo_small_06_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Explosions\FX_3D_Explosion\Explo_Small_06		17939
+	291235004	65Corvette_Loop1	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\65corvette_loop1_c604ef00.wem		\Actor-Mixer Hierarchy\FX\2D\Vehicle\FX_2D_Car_Loop\65Corvette_Loop1		19637
+	296394858	Henchmen_01_Hurt_03	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_01_hurt_03_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Hurt\Henchmen_01_Hurt_03		4643
+	339509342	Foot_Dirt1_BootJump2	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootjump2_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Jump\Foot_Dirt1_BootJump2		10492
+	377377763	Foot_Dirt1_BootWalk07	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootwalk07_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Footsteps\Foot_Dirt1_BootWalk07		11331
+	377459119	FX_2D_MenuCancel	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\menu_cancel01_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Menu\FX_2D_MenuCancel		12813
+	379069451	Foot_Dirt1_BootLand4	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootland4_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Land\Foot_Dirt1_BootLand4		6761
+	387863399	Henchmen_01_Death_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_01_death_02_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Death\Henchmen_01_Death_02		20336
+	389904861	FX_3D_Door_Open	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\door_largewood_close_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Doors\FX_3D_Door_Open		13782
+	419285226	Punch_Boxing_FaceHit1	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\punch_boxing_facehit1_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Impacts\FX_2D_Punches\Punch_Boxing_FaceHit1		5472
+	433711047	Agent_Land_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_land_01_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Land\Agent_Land_01		4057
+	439318752	Foot_Dirt1_BootJump6	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootjump6_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Jump\Foot_Dirt1_BootJump6		7475
+	460369817	Agent_Hit_beanbag_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_hit_beanbag_01_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Hurt\Agent_Hit_beanbag_01		4316
+	460912589	Punch_Boxing_FaceHit2	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\punch_boxing_facehit2_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Impacts\FX_3D_Punches\Punch_Boxing_FaceHit2		6890
+	469467618	Agent_Jump_05	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_jump_05_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Jump\Agent_Jump_05		4697
+	477136874	Breathing_Speed_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\breathing_speed_01_57342d47.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Breathing_Loop\Breathing_Speed_01		164552
+	477829810	FX_2D_HealthPickup	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\health_powerup_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Pickups\FX_2D_HealthPickup		19490
+	480144977	Agent_Jump_06	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_jump_06_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Jump\Agent_Jump_06		6494
+	500927666	Agent_Jump_04	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_jump_04_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Jump\Agent_Jump_04		4785
+	505391842	FX_2D_Alarm_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\alarm_loop01_6e9a678f.wem		\Actor-Mixer Hierarchy\FX\2D\Alarms-Indicators\FX_2D_Alarm_Loop		7396
+	517083021	Agent_Land_04	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_land_04_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Land\Agent_Land_04		6832
+	522926251	Henchmen_01_Hurt_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_01_hurt_02_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Hurt\Henchmen_01_Hurt_02		3727
+	532148361	FX_2D_MenuBackup	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\menu_backup01_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Menu\FX_2D_MenuBackup		9227
+	532656836	Foot_Dirt1_BootLand1	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootland1_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Land\Foot_Dirt1_BootLand1		6267
+	538778817	Lose Sad Music	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\lose sad music_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Lose Sad Music		2209355
+	540810594	Breathing_Speed_05	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\breathing_speed_05_75d05820.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Breathing_Loop\Breathing_Speed_05		44201
+	542353733	FX_2D_AmmoPickup	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\gun_weapon_pickup01_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Pickups\FX_2D_AmmoPickup		12768
+	543910436	Foot_Dirt1_BootJump4	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootjump4_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Jump\Foot_Dirt1_BootJump4		7086
+	546628902	Foot_Dirt1_BootWalk06	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootwalk06_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Footsteps\Foot_Dirt1_BootWalk06		9486
+	571111605	DX_Sidekick_GoCommand_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\dx_sidekick_gocommand_02_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_UnitCommands\DX_Sidekick_GoCommand_02		9783
+	575657324	Foot_Dirt1_BootWalk01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootwalk01_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Movement\FX_3D_Footsteps\Foot_Dirt1_BootWalk01		10035
+	587920265	Medium Enemy Charge	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\medium enemy charge_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Medium Enemy Charge		45817
+	589259108	Countdown 3-2-1-0	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\countdown 3-2-1-0_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Countdown 3-2-1-0		59292
+	596088622	Punch_Boxing_FaceHit5	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\punch_boxing_facehit5_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Impacts\FX_3D_Punches\Punch_Boxing_FaceHit5		4991
+	597691775	Laser Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\laser loop_623c6076.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Laser Loop		121663
+	601611294	FX_2D_Forest_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\amb_tropicalforestloop1_3c5db7f9.wem		\Actor-Mixer Hierarchy\FX\2D\Ambience\FX_2D_Forest_Loop		124045
+	608902326	Foot_Dirt1_BootWalk05	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootwalk05_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Footsteps\Foot_Dirt1_BootWalk05		10459
+	613103447	Foot_Dirt1_BootLand6	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootland6_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Land\Foot_Dirt1_BootLand6		7451
+	618613825	Henchmen_01_Attack_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_01_attack_02_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Attack\Henchmen_01_Attack_02		5676
+	636626847	FX_2D_MenuPause	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\menupause_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Menu\FX_2D_MenuPause		9567
+	646915019	FX_2D_SheildPickup	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\pickup_armourshield01_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Pickups\FX_2D_SheildPickup		11347
+	647860590	FX_3D_PistolShot	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\gun_pistol_shot01_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Weapons\Guns\FX_3D_PistolShot		9220
+	654905969	FX_2D_AssaultRifle_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\assaultrifle_shotloop01_cac1cf75.wem		\Actor-Mixer Hierarchy\FX\2D\Weapons\Guns\FX_2D_AssaultRifle_Loop		23093
+	661410750	Agent_Jump_03	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_jump_03_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Jump\Agent_Jump_03		7102
+	675283150	DX_Sidekick_GoCommand	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\dx_sidekick_gocommand_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_UnitCommands\DX_Sidekick_GoCommand		11070
+	680242150	FX_3D_WaterSplash	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\bodyfall_deepwater1_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Liquid\FX_3D_WaterSplash		17195
+	683195714	LaserBlast	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\laserblast_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\LaserBlast		122405
+	698491332	Foot_Dirt1_BootWalk02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootwalk02_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Footsteps\Foot_Dirt1_BootWalk02		7161
+	701304591	FX_2D_Klaxon_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\alarm_klaxon_loop1_a838a00f.wem		\Actor-Mixer Hierarchy\FX\2D\Alarms-Indicators\FX_2D_Klaxon_Loop		23178
+	709711836	Foot_Dirt1_BootWalk10	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootwalk10_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Footsteps\Foot_Dirt1_BootWalk10		6995
+	715974961	DX_Sidekick_Death_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\dx_sidekick_death_01_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Death\DX_Sidekick_Death_01		13540
+	724412770	65Corvette_IdleLoop1	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\65corvette_idleloop1_6f7fab66.wem		\Actor-Mixer Hierarchy\FX\3D\Vehicles\FX_3D_Car_Loop\65Corvette_IdleLoop1		45296
+	726946176	Agent_Hit_beanbag_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_hit_beanbag_02_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Hurt\Agent_Hit_beanbag_02		3953
+	745120788	Laser Charge Up	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\laser charge up_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Laser Charge Up		91080
+	749557529	FX_2D_Beep	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\beep_grenadebombtimer1_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Alarms-Indicators\FX_2D_Beep		6316
+	757819000	Agent_Hit_Bullet_04	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_hit_bullet_04_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Hurt\Agent_Hit_Bullet_04		5372
+	793147095	Henchmen_02_Orders_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_02_orders_01_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Aggro\Henchmen_02_Orders_01		21046
+	799561220	Foot_Dirt1_BootLand7	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootland7_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Land\Foot_Dirt1_BootLand7		8655
+	807494317	Henchmen_02_Orders_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_02_orders_02_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Aggro\Henchmen_02_Orders_02		30731
+	809914271	Agent_Jump_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_jump_01_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Jump\Agent_Jump_01		6526
+	838141253	Agent_Land_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_land_02_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Land\Agent_Land_02		5299
+	845196286	FX_3D_Lever-Switch	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\lever_largemetal_switch01_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Switches\FX_3D_Lever-Switch		6893
+	856642211	Agent_Hit_Bullet_03	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_hit_bullet_03_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Hurt\Agent_Hit_Bullet_03		9089
+	869294581	FX_3D_SmashCrate	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\smash_woodbreak01_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Destructables\FX_3D_SmashCrate		11507
+	870510227	FX_2D_MenuMove-Hover	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\button_vendingmachine1_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Menu\FX_2D_MenuMove-Hover		4646
+	880182030	Gameplay_05	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\gameplay_05_a66b59a9.wem		\Interactive Music Hierarchy\Default Work Unit\MX_MusicLoop_05\MX_MusicLoop_05\Gameplay_05		5252053
+	907429488	Foot_Dirt1_BootWalk09	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\foot_dirt1_bootwalk09_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Movement\FX_2D_Footsteps\Foot_Dirt1_BootWalk09		8839
+	955280945	Agent_Jump_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_jump_02_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Jump\Agent_Jump_02		6741
+	959721945	Agent_Hit_Bullet_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\agent_hit_bullet_01_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Hurt\Agent_Hit_Bullet_01		6845
+	971806798	Gameplay_04	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\gameplay_04_e482eb8f.wem		\Interactive Music Hierarchy\Default Work Unit\MX_MusicLoop_04\MX_MusicLoop_04\Gameplay_04		3373289
+	981389914	DX_Sidekick_Death_04	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\dx_sidekick_death_04_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Death\DX_Sidekick_Death_04		15789
+	991622778	Explo_Small_02	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\explo_small_02_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Explosions\FX_3D_Explosion\Explo_Small_02		24223
+	996787749	FX_2D_MenuUnPause	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\menu_backup09_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Menu\FX_2D_MenuUnPause		9593
+	1011476984	Henchmen_01_Death_01	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\henchmen_01_death_01_d6968536.wem		\Actor-Mixer Hierarchy\DX\3D\DX_3D_Death\Henchmen_01_Death_01		15726
+	1014982202	FX_2D_MenuAccept	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\menu_accept_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Menu\FX_2D_MenuAccept		15371
+	1023247839	FX_2D_Rain_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\rain_loop01_5eb71151.wem		\Actor-Mixer Hierarchy\FX\2D\Ambience\FX_2D_Rain_Loop		31476
+	1046394917	Explo_Small_03	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\explo_small_03_d6968536.wem		\Actor-Mixer Hierarchy\FX\3D\Explosions\FX_3D_Explosion\Explo_Small_03		21010
+	1046506901	DX_Sidekick_Death_03	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\dx_sidekick_death_03_d6968536.wem		\Actor-Mixer Hierarchy\DX\2D\DX_2D_Death\DX_Sidekick_Death_03		12041
+	1048482320	StatScreen	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\statscreen_79da6bce.wem		\Interactive Music Hierarchy\Default Work Unit\MX_MusicLoop_06\MX_MusicLoop_06\StatScreen		1380664
+	1067043383	Medium Enemy Shoot	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\medium enemy shoot_d6968536.wem		\Actor-Mixer Hierarchy\FX\2D\Critical Mass\Medium Enemy Shoot		5272
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	152279406	Game_play_music_01_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\game_play_music_01_loop_6a0b4df3.wem	152279406.wem	\Interactive Music Hierarchy\Default Work Unit\MX_MusicLoop_01\Game_play_music_01_Loop\Game_play_music_01_Loop	
+	355439182	Game_play_music_02_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\game_play_music_02_loop_114207b4.wem	355439182.wem	\Interactive Music Hierarchy\Default Work Unit\MX_MusicLoop_02\Game_play_music_02_Loop\Game_play_music_02_Loop	
+	538185854	Game_play_music_03_Loop	C:\Users\Murphy\Perforce\jmurphy_Murphy_Laptop_3_Depot2\WwisePlaceHolderProject\Wwise_PH\.cache\Windows\sfx\game_play_music_03_loop_d2ff0744.wem	538185854.wem	\Interactive Music Hierarchy\Default Work Unit\MX_MusicLoop_03\Game_play_music_03_Loop\Game_play_music_03_Loop	
+

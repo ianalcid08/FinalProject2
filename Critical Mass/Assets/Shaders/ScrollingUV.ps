@@ -1,0 +1,14 @@
+ // Textured point light pixel shader
+#version 130
+
+out vec4 vFragColor;
+
+uniform vec4 vColor;
+uniform sampler2D textureUnit0;
+
+varying vec2 vTex;
+
+void main( void )
+{
+	vFragColor = texture2D(textureUnit0, vTex) * vColor;
+}

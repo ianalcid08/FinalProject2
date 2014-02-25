@@ -1,0 +1,17 @@
+#version 330
+
+out vec4 vFragColor;
+
+uniform vec4 vColor;
+uniform samplerCube cubeMap;
+
+smooth in vec3 vVaryingTexCoord;
+
+void main( void )
+{
+	vFragColor = texture( cubeMap, vVaryingTexCoord );
+	vFragColor.r *= ( vFragColor.r + vColor.r ) / 2.0;
+	vFragColor.g *= ( vFragColor.g + vColor.g ) / 2.0;
+	vFragColor.b *= ( vFragColor.b + vColor.b ) / 2.0;
+	vFragColor.a *= vColor.a;
+}

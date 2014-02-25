@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Beta|Win32">
+      <Configuration>Beta</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B419316-24C9-4867-8ABC-CFE23C2ED02C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CriticalMass</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)\Include;$(SolutionDir)\Critical Mass\Header Files;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(SolutionDir)\Includes\Direct Input\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)\Include;$(SolutionDir)\Critical Mass\Header Files;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(SolutionDir)\Includes\Direct Input\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)\Include;$(SolutionDir)\Critical Mass\Header Files;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(SolutionDir)\Includes\Direct Input\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>GLEW_STATIC;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>../Header Files/StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Includes\Sound\Dependencies\Wwise\Include;$(SolutionDir)\Includes\Sound\Dependencies\Wwise\SoundEngine\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;tinyxml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Includes\Sound\Dependencies\Wwise\$(Configuration);$(SolutionDir)\Includes\tinyxml;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(SolutionDir)Includes\Sound\Dependencies\Wwise\$(Configuration)\AkSoundEngineDLL.dll" "$(SolutionDir)$(Configuration)\AkSoundEngineDLL.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>GLEW_BUILD;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>../Header Files/StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Includes\Lua\include;$(SolutionDir)\Includes\Sound\Dependencies\Wwise\Include;$(SolutionDir)\Includes\Sound\Dependencies\Wwise\SoundEngine\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;lua51.lib;lua5.1.lib;tinyxml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Includes\Sound\Dependencies\Wwise\$(Configuration);$(SolutionDir)\Includes\Lua\lib;$(SolutionDir)\Includes\tinyxml;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(SolutionDir)Includes\Sound\Dependencies\Wwise\$(Configuration)\AkSoundEngineDLL.dll" "$(SolutionDir)$(Configuration)\AkSoundEngineDLL.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>GLEW_BUILD;WIN32;NDEBUG;_WINDOWS;_BETA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>../Header Files/StdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Includes\Lua\include;$(SolutionDir)\Includes\Sound\Dependencies\Wwise\Include;$(SolutionDir)\Includes\Sound\Dependencies\Wwise\SoundEngine\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;lua51.lib;lua5.1.lib;tinyxml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Includes\Sound\Dependencies\Wwise\$(Configuration);$(SolutionDir)\Includes\Lua\lib;$(SolutionDir)\Includes\tinyxml;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(SolutionDir)Includes\Sound\Dependencies\Wwise\Release\AkSoundEngineDLL.dll" "$(SolutionDir)$(Configuration)\AkSoundEngineDLL.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Critical Mass.ico" />
+    <None Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Includes\Sound\Source\AudioSystemWwise.h" />
+    <ClInclude Include="..\Includes\Sound\Source\Entity3D.h" />
+    <ClInclude Include="..\Includes\Sound\Source\Wwise_IDs.h" />
+    <ClInclude Include="Header Files\AcidPool.h" />
+    <ClInclude Include="Header Files\AIManager.h" />
+    <ClInclude Include="Header Files\AnimationManager.h" />
+    <ClInclude Include="Header Files\AnimationProcessor.h" />
+    <ClInclude Include="Header Files\AnimDebugState.h" />
+    <ClInclude Include="Header Files\AssetManager.h" />
+    <ClInclude Include="Header Files\BaseEntity.h" />
+    <ClInclude Include="Header Files\BehaviorNode.h" />
+    <ClInclude Include="Header Files\Behaviors.h" />
+    <ClInclude Include="Header Files\BehaviorTree.h" />
+    <ClInclude Include="Header Files\BlueStrike.h" />
+    <ClInclude Include="Header Files\BossEnemy.h" />
+    <ClInclude Include="Header Files\Camera.h" />
+    <ClInclude Include="Header Files\CinematicSystem.h" />
+    <ClInclude Include="Header Files\CollisionEntity.h" />
+    <ClInclude Include="Header Files\CollisionLib.h" />
+    <ClInclude Include="Header Files\CollisionManager.h" />
+    <ClInclude Include="Header Files\Conditions.h" />
+    <ClInclude Include="Header Files\Crate.h" />
+    <ClInclude Include="Header Files\CreditsMenu.h" />
+    <ClInclude Include="Header Files\Critical Mass.h" />
+    <ClInclude Include="Header Files\DebugConsole.h" />
+    <ClInclude Include="Header Files\Definitions.h" />
+    <ClInclude Include="Header Files\Depot.h" />
+    <ClInclude Include="Header Files\DifficultyMenu.h" />
+    <ClInclude Include="Header Files\Emitter.h" />
+    <ClInclude Include="Header Files\EMP.h" />
+    <ClInclude Include="Header Files\Enemy.h" />
+    <ClInclude Include="Header Files\Explosion.h" />
+    <ClInclude Include="Header files\Game.h" />
+    <ClInclude Include="Header Files\GamePlayState.h" />
+    <ClInclude Include="Header Files\GeometryEffect.h" />
+    <ClInclude Include="Header Files\GeometryEmitter.h" />
+    <ClInclude Include="Header Files\GLAnimatedBatch.h" />
+    <ClInclude Include="Header Files\GLBatch.h" />
+    <ClInclude Include="Header Files\GLBatchBase.h" />
+    <ClInclude Include="Header Files\GLFrame.h" />
+    <ClInclude Include="Header Files\GLFrustum.h" />
+    <ClInclude Include="Header Files\GLGeometryTransform.h" />
+    <ClInclude Include="Header Files\GLMatrixStack.h" />
+    <ClInclude Include="Header Files\GLSetup.h" />
+    <ClInclude Include="Header Files\GLShaderManager.h" />
+    <ClInclude Include="Header Files\glsMath.h" />
+    <ClInclude Include="Header Files\GLTriangleBatch.h" />
+    <ClInclude Include="header files\gl\glew.h" />
+    <ClInclude Include="Header Files\GL\glxew.h" />
+    <ClInclude Include="Header Files\GL\wglew.h" />
+    <ClInclude Include="Header Files\HealthPickup.h" />
+    <ClInclude Include="Header Files\HelpState.h" />
+    <ClInclude Include="Header Files\HUD.h" />
+    <ClInclude Include="Header Files\IEntity.h" />
+    <ClInclude Include="Header Files\Input.h" />
+    <ClInclude Include="Header Files\IntroSplashState.h" />
+    <ClInclude Include="Header Files\IntroState.h" />
+    <ClInclude Include="Header Files\IState.h" />
+    <ClInclude Include="Header Files\LandingPads.h" />
+    <ClInclude Include="Header Files\LargeEnemy.h" />
+    <ClInclude Include="Header Files\Laser.h" />
+    <ClInclude Include="Header Files\LaserBall.h" />
+    <ClInclude Include="Header Files\LaserTrap.h" />
+    <ClInclude Include="Header Files\Light.h" />
+    <ClInclude Include="Header Files\LightPole.h" />
+    <ClInclude Include="Header Files\LivingEntity.h" />
+    <ClInclude Include="Header Files\LoseState.h" />
+    <ClInclude Include="Header Files\MainMenuState.h" />
+    <ClInclude Include="Header Files\MediumEnemy.h" />
+    <ClInclude Include="Header Files\Mesh.h" />
+    <ClInclude Include="Header Files\MessageSystem.h" />
+    <ClInclude Include="Header Files\Mortar.h" />
+    <ClInclude Include="Header Files\MovingEntity.h" />
+    <ClInclude Include="Header Files\ObjectFactory.h" />
+    <ClInclude Include="Header Files\ObjectManager.h" />
+    <ClInclude Include="Header Files\OptionsMenu.h" />
+    <ClInclude Include="Header Files\Particle.h" />
+    <ClInclude Include="Header Files\PauseState.h" />
+    <ClInclude Include="Header Files\Player.h" />
+    <ClInclude Include="Header Files\Projectile.h" />
+    <ClInclude Include="Header Files\Pull.h" />
+    <ClInclude Include="Header Files\Push.h" />
+    <ClInclude Include="Header Files\QuitGameState.h" />
+    <ClInclude Include="Header Files\RedBarrel.h" />
+    <ClInclude Include="Header Files\RedStrike.h" />
+    <ClInclude Include="Header Files\Renderer.h" />
+    <ClInclude Include="Header Files\RenderNode.h" />
+    <ClInclude Include="Header Files\Resource.h" />
+    <ClInclude Include="Header Files\ScriptManager.h" />
+    <ClInclude Include="Header Files\Selector.h" />
+    <ClInclude Include="Header Files\Sequence.h" />
+    <ClInclude Include="Header Files\Shield.h" />
+    <ClInclude Include="Header Files\Shotgun.h" />
+    <ClInclude Include="Header Files\SkyBox.h" />
+    <ClInclude Include="Header Files\SmallEnemy.h" />
+    <ClInclude Include="Header Files\SoundManager.h" />
+    <ClInclude Include="Header Files\SpaceObjects.h" />
+    <ClInclude Include="Header Files\StateManager.h" />
+    <ClInclude Include="Header Files\stdafx.h" />
+    <ClInclude Include="Header Files\targetver.h" />
+    <ClInclude Include="Header Files\Timer.h" />
+    <ClInclude Include="Header Files\TutorialMenu.h" />
+    <ClInclude Include="Header Files\TutorialPause.h" />
+    <ClInclude Include="Header Files\TutorialState.h" />
+    <ClInclude Include="Header Files\UIElement.h" />
+    <ClInclude Include="Header Files\VFXManager.h" />
+    <ClInclude Include="Header Files\WaveManager.h" />
+    <ClInclude Include="Header Files\Weapons.h" />
+    <ClInclude Include="Header Files\WindowsForm.h" />
+    <ClInclude Include="Header Files\WinState.h" />
+    <ClInclude Include="Header Files\World.h" />
+    <ClInclude Include="Header Files\XBOXController.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Includes\Sound\Source\AudioSystemWwise.cpp" />
+    <ClCompile Include="..\Includes\Sound\Source\Entity3D.cpp" />
+    <ClCompile Include="Source Files\AcidPool.cpp" />
+    <ClCompile Include="Source Files\AIManager.cpp" />
+    <ClCompile Include="Source Files\AnimationManager.cpp" />
+    <ClCompile Include="Source Files\AnimationProcessor.cpp" />
+    <ClCompile Include="Source Files\AnimDebugState.cpp" />
+    <ClCompile Include="Source Files\AssetManager.cpp" />
+    <ClCompile Include="Source Files\BaseEntity.cpp" />
+    <ClCompile Include="Source Files\Behaviors.cpp" />
+    <ClCompile Include="Source Files\BehaviorTree.cpp" />
+    <ClCompile Include="Source Files\BlueStrike.cpp" />
+    <ClCompile Include="Source Files\BossEnemy.cpp" />
+    <ClCompile Include="Source Files\Camera.cpp" />
+    <ClCompile Include="Source Files\CinematicSystem.cpp" />
+    <ClCompile Include="Source Files\CollisionEntity.cpp" />
+    <ClCompile Include="Source Files\CollisionLib.cpp" />
+    <ClCompile Include="Source Files\CollisionManager.cpp" />
+    <ClCompile Include="Source Files\Conditions.cpp" />
+    <ClCompile Include="Source Files\Crate.cpp" />
+    <ClCompile Include="Source Files\CreditsMenu.cpp" />
+    <ClCompile Include="Source Files\Critical Mass.cpp" />
+    <ClCompile Include="Source Files\DebugConsole.cpp" />
+    <ClCompile Include="Source Files\Depot.cpp" />
+    <ClCompile Include="Source Files\DifficultyMenu.cpp" />
+    <ClCompile Include="Source Files\Emitter.cpp" />
+    <ClCompile Include="Source Files\EMP.cpp" />
+    <ClCompile Include="Source Files\Enemy.cpp" />
+    <ClCompile Include="Source Files\Explosion.cpp" />
+    <ClCompile Include="source files\Game.cpp" />
+    <ClCompile Include="Source Files\GamePlayState.cpp" />
+    <ClCompile Include="Source Files\GeometryEffect.cpp" />
+    <ClCompile Include="Source Files\GeometryEmitter.cpp" />
+    <ClCompile Include="Source Files\GLAnimatedBatch.cpp" />
+    <ClCompile Include="Source Files\GLBatch.cpp" />
+    <ClCompile Include="Source Files\glew.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source Files\GLSetup.cpp" />
+    <ClCompile Include="Source Files\GLShaderManager.cpp" />
+    <ClCompile Include="Source Files\glsMath.cpp" />
+    <ClCompile Include="Source Files\GLTriangleBatch.cpp" />
+    <ClCompile Include="Source Files\HealthPickup.cpp" />
+    <ClCompile Include="Source Files\HelpState.cpp" />
+    <ClCompile Include="Source Files\HUD.cpp" />
+    <ClCompile Include="Source Files\Input.cpp" />
+    <ClCompile Include="Source Files\IntroSplashState.cpp" />
+    <ClCompile Include="Source Files\IntroState.cpp" />
+    <ClCompile Include="Source Files\IState.cpp" />
+    <ClCompile Include="source files\LandingPads.cpp" />
+    <ClCompile Include="Source Files\LargeEnemy.cpp" />
+    <ClCompile Include="Source Files\Laser.cpp" />
+    <ClCompile Include="Source Files\LaserBall.cpp" />
+    <ClCompile Include="Source Files\LaserTrap.cpp" />
+    <ClCompile Include="Source Files\Light.cpp" />
+    <ClCompile Include="Source Files\LightPole.cpp" />
+    <ClCompile Include="Source Files\LivingEntity.cpp" />
+    <ClCompile Include="Source Files\LoseState.cpp" />
+    <ClCompile Include="Source Files\MainMenuState.cpp" />
+    <ClCompile Include="Source Files\MediumEnemy.cpp" />
+    <ClCompile Include="Source Files\Mesh.cpp" />
+    <ClCompile Include="Source Files\MessageSystem.cpp" />
+    <ClCompile Include="Source Files\Mortar.cpp" />
+    <ClCompile Include="Source Files\MovingEntity.cpp" />
+    <ClCompile Include="Source Files\OBB.cpp" />
+    <ClCompile Include="Source Files\ObjectFactory.cpp" />
+    <ClCompile Include="Source Files\ObjectManager.cpp" />
+    <ClCompile Include="Source Files\OptionsMenu.cpp" />
+    <ClCompile Include="Source Files\Particle.cpp" />
+    <ClCompile Include="Source Files\PauseState.cpp" />
+    <ClCompile Include="Source Files\Player.cpp" />
+    <ClCompile Include="Source Files\Projectile.cpp" />
+    <ClCompile Include="Source Files\Pull.cpp" />
+    <ClCompile Include="Source Files\Push.cpp" />
+    <ClCompile Include="Source Files\QuitGameState.cpp" />
+    <ClCompile Include="Source Files\RedBarrel.cpp" />
+    <ClCompile Include="Source Files\RedStrike.cpp" />
+    <ClCompile Include="Source Files\Renderer.cpp" />
+    <ClCompile Include="Source Files\RenderNode.cpp" />
+    <ClCompile Include="Source Files\ScriptManager.cpp" />
+    <ClCompile Include="Source Files\Shield.cpp" />
+    <ClCompile Include="Source Files\Shotgun.cpp" />
+    <ClCompile Include="Source Files\SkyBox.cpp" />
+    <ClCompile Include="Source Files\SmallEnemy.cpp" />
+    <ClCompile Include="Source Files\SoundManager.cpp" />
+    <ClCompile Include="Source Files\SpaceObjects.cpp" />
+    <ClCompile Include="Source Files\StateManager.cpp" />
+    <ClCompile Include="Source Files\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../Header Files/StdAfx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Beta|Win32'">../Header Files/StdAfx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source Files\Timer.cpp" />
+    <ClCompile Include="Source Files\TutorialMenu.cpp" />
+    <ClCompile Include="Source Files\TutorialPause.cpp" />
+    <ClCompile Include="Source Files\TutorialState.cpp" />
+    <ClCompile Include="Source Files\UIElement.cpp" />
+    <ClCompile Include="Source Files\VFXManager.cpp" />
+    <ClCompile Include="Source Files\WaveManager.cpp" />
+    <ClCompile Include="Source Files\Weapons.cpp" />
+    <ClCompile Include="Source Files\WindowsForm.cpp" />
+    <ClCompile Include="Source Files\WinState.cpp" />
+    <ClCompile Include="Source Files\World.cpp" />
+    <ClCompile Include="Source Files\XBOXController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Critical Mass.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,15 @@
+// Dissolve pixel shader
+#version 130
+
+varying vec2 vTex;
+uniform vec4 vColor;
+uniform sampler2D textureUnit0;
+uniform sampler2D textureUnit1;
+uniform float dissolveFactor;
+
+void main( void )
+{
+	if( texture2D( textureUnit1, vTex ).r > dissolveFactor )
+		discard;
+	gl_FragColor = texture2D( textureUnit0, vTex ) * vColor;
+}

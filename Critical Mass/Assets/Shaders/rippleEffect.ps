@@ -1,0 +1,18 @@
+// Ripple effect pixel shader
+#version 130
+
+uniform float time;
+uniform vec4 vColor;
+uniform sampler2D textureUnit0;
+
+varying vec2 vTex;
+
+smooth in float fDistance;
+
+void main( void )
+{
+	float offset = sin( fDistance - time * 10.0f ) * 0.01f;
+	vec2 tex = vTex + offset;
+	gl_FragColor = texture2D( textureUnit0, tex ) * vColor;
+	gl_FragColor.a += offset * 5.0f;
+}
